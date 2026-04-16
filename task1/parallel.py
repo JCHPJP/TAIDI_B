@@ -36,10 +36,10 @@ def set_new_dir(new_folder_name):
     global PDF_ROOT, OUTPUT_ROOT, LOG_DIR, log_file, file_lock
 
     # 1. 切换路径
-    PDF_ROOT = Path.cwd() / "data" / "正式数据" / new_folder_name
+    PDF_ROOT = Path.cwd().parent / "data" / "正式数据" / new_folder_name
       # 只保留冒号后面的部分作为输出目录名
-    OUTPUT_ROOT = Path.cwd() / "parsed_results"/ new_folder_name.split("：")[-1]
-    LOG_DIR = Path.cwd() / "logs"
+    OUTPUT_ROOT = Path.cwd().parent / "parsed_results"/ new_folder_name.split("：")[-1]
+    LOG_DIR = Path.cwd().parent / "logs"
 
     # 2. 创建目录
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)

@@ -1,6 +1,6 @@
 import sqlite3
 import os
-
+from pathlib import Path
 
 class FinancialDatabaseCreator:
     """
@@ -12,14 +12,14 @@ class FinancialDatabaseCreator:
     3. 提供数据库管理辅助方法
     
     使用方法：
-        db = FinancialDatabaseCreator('db\\financial_data.db')
+        db = FinancialDatabaseCreator(Path().cwd().parent / 'db' / 'financial_data.db')
         db.connect()
         db.create_all_tables()
         db.create_indexes()
         db.close()
     """
     
-    def __init__(self, db_path='db\\financial_data.db'):
+    def __init__(self, db_path=Path().cwd().parent / 'db' / 'financial_data.db'):
         """
         初始化数据库创建器
         
@@ -27,6 +27,8 @@ class FinancialDatabaseCreator:
             db_path (str): 数据库文件路径，默认为 'financial_data.db'
         """
         self.db_path = db_path
+        if not self.db_path.parent.exists():
+            self.db_path.parent.mkdir(parents=True, exist_ok=True)
         self.conn = None      # 数据库连接对象
         self.cursor = None    # 数据库游标对象
         
@@ -473,7 +475,7 @@ class FinancialDatabaseCreator:
 # ==================== 使用示例 ====================
 if __name__ == "__main__":
     # 1. 创建数据库实例
-    db_creator = FinancialDatabaseCreator('db\\financial_data.db')
+    db_creator = FinancialDatabaseCreator()
     
     # 2. 连接数据库
     db_creator.connect()

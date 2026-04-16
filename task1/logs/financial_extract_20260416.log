@@ -1,0 +1,189 @@
+2026-04-16 16:23:36 - FinancialExtractor - INFO - extracted_all_data.py:320 - ============================================================
+2026-04-16 16:23:36 - FinancialExtractor - INFO - extracted_all_data.py:321 - 程序启动
+2026-04-16 16:23:36 - FinancialExtractor - INFO - extracted_all_data.py:322 - ============================================================
+2026-04-16 16:23:36 - FinancialExtractor - INFO - extracted_all_data.py:327 - 扫描目录: E:\github\TAIDI_B\processed\财务报告
+2026-04-16 16:23:36 - FinancialExtractor - INFO - extracted_all_data.py:330 - 找到 1252 个markdown文件
+2026-04-16 16:23:36 - FinancialExtractor - INFO - extracted_all_data.py:335 - 开始处理测试文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_FQ2V.md
+2026-04-16 16:23:36 - FinancialExtractor - INFO - extracted_all_data.py:266 - 开始处理文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_FQ2V.md
+2026-04-16 16:23:36 - FinancialExtractor - INFO - extracted_all_data.py:275 - 文件读取成功，内容长度: 9664 字符
+2026-04-16 16:23:36 - FinancialExtractor - INFO - extracted_all_data.py:238 - 开始分割和合并段落，原始段落数: 21
+2026-04-16 16:23:36 - FinancialExtractor - INFO - extracted_all_data.py:257 - 段落分割完成，生成 1 个块
+2026-04-16 16:23:36 - FinancialExtractor - INFO - extracted_all_data.py:290 - 处理文件 600080_20230428_FQ2V.md 的第 1/1 个块
+2026-04-16 16:23:36 - FinancialExtractor - INFO - extracted_all_data.py:170 - 调用大模型处理文件: 600080_20230428_FQ2V.md, prompt长度: 13743
+2026-04-16 16:24:10 - FinancialExtractor - WARNING - extracted_all_data.py:162 - 修复模式提取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-16 16:24:10 - FinancialExtractor - ERROR - extracted_all_data.py:165 - 所有JSON提取方法都失败，原始文本前200字符: ```json
+{
+  "报告信息": {
+    "序号": null,
+    "股票代码": "600080",
+    "股票简称": "金花股份",
+    "报告年份": "2022",
+    "报告期": "年度",
+    "总股本_股": null,
+    "流通股本_股": null,
+    "报告日期": null,
+    "审计意见": "标准无保留意见",
+   
+2026-04-16 16:24:10 - FinancialExtractor - ERROR - extracted_all_data.py:195 - 文件 600080_20230428_FQ2V.md JSON解析失败，响应内容: ```json
+{
+  "报告信息": {
+    "序号": null,
+    "股票代码": "600080",
+    "股票简称": "金花股份",
+    "报告年份": "2022",
+    "报告期": "年度",
+    "总股本_股": null,
+    "流通股本_股": null,
+    "报告日期": null,
+    "审计意见": "标准无保留意见",
+    "会计师事务所": "信永中和会计师事务所（特殊普通合伙）"
+  },
+  
+  "核心业绩指标": {
+    "每股收益_元": "0.0896",
+    "稀释每股收益_元": "0.0896",
+    "营业总收入_万元": "579,374,501.21",
+    "营业总收入_亿元": "5.79",
+    "营收同比增长_百分比": "8.49",
+    "营收环比增长_百分比": null,
+    "净利润_万元": "33,459,505.16",
+    "净利润_亿元": "0.33",
+    "净利润同比增长_百分比": null,
+    "净利润环比
+2026-04-16 16:24:10 - FinancialExtractor - ERROR - extracted_all_data.py:304 - 第 1 个块处理失败: JSON解析失败
+2026-04-16 16:24:10 - FinancialExtractor - INFO - extracted_all_data.py:308 - 文件 600080_20230428_FQ2V.md 处理完成，耗时: 33.42秒
+2026-04-16 16:24:10 - FinancialExtractor - INFO - extracted_all_data.py:340 - 处理成功 - 文件: 600080_20230428_FQ2V.md
+2026-04-16 16:24:10 - FinancialExtractor - INFO - extracted_all_data.py:341 - 提取的数据长度: 4027 字符
+2026-04-16 16:24:10 - FinancialExtractor - INFO - extracted_all_data.py:350 - 结果已保存到: output\600080_20230428_FQ2V_extracted.json
+2026-04-16 16:24:10 - FinancialExtractor - INFO - extracted_all_data.py:359 - ============================================================
+2026-04-16 16:24:10 - FinancialExtractor - INFO - extracted_all_data.py:360 - 程序结束
+2026-04-16 16:24:10 - FinancialExtractor - INFO - extracted_all_data.py:361 - ============================================================
+2026-04-16 16:25:48 - FinancialExtractor - INFO - extracted_all_data.py:320 - ============================================================
+2026-04-16 16:25:48 - FinancialExtractor - INFO - extracted_all_data.py:321 - 程序启动
+2026-04-16 16:25:48 - FinancialExtractor - INFO - extracted_all_data.py:322 - ============================================================
+2026-04-16 16:25:48 - FinancialExtractor - INFO - extracted_all_data.py:327 - 扫描目录: E:\github\TAIDI_B\processed\财务报告
+2026-04-16 16:25:48 - FinancialExtractor - INFO - extracted_all_data.py:330 - 找到 1252 个markdown文件
+2026-04-16 16:25:48 - FinancialExtractor - INFO - extracted_all_data.py:335 - 开始处理测试文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_FQ2V.md
+2026-04-16 16:25:48 - FinancialExtractor - INFO - extracted_all_data.py:266 - 开始处理文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_FQ2V.md
+2026-04-16 16:25:48 - FinancialExtractor - INFO - extracted_all_data.py:275 - 文件读取成功，内容长度: 9664 字符
+2026-04-16 16:25:48 - FinancialExtractor - INFO - extracted_all_data.py:238 - 开始分割和合并段落，原始段落数: 21
+2026-04-16 16:25:48 - FinancialExtractor - INFO - extracted_all_data.py:257 - 段落分割完成，生成 1 个块
+2026-04-16 16:25:48 - FinancialExtractor - INFO - extracted_all_data.py:290 - 处理文件 600080_20230428_FQ2V.md 的第 1/1 个块
+2026-04-16 16:25:48 - FinancialExtractor - INFO - extracted_all_data.py:170 - 调用大模型处理文件: 600080_20230428_FQ2V.md, prompt长度: 13743
+2026-04-16 16:26:50 - FinancialExtractor - INFO - extracted_all_data.py:192 - 文件 600080_20230428_FQ2V.md 数据提取成功
+2026-04-16 16:26:50 - FinancialExtractor - INFO - extracted_all_data.py:308 - 文件 600080_20230428_FQ2V.md 处理完成，耗时: 62.61秒
+2026-04-16 16:26:50 - FinancialExtractor - INFO - extracted_all_data.py:340 - 处理成功 - 文件: 600080_20230428_FQ2V.md
+2026-04-16 16:26:50 - FinancialExtractor - INFO - extracted_all_data.py:341 - 提取的数据长度: 4240 字符
+2026-04-16 16:26:50 - FinancialExtractor - INFO - extracted_all_data.py:350 - 结果已保存到: output\600080_20230428_FQ2V_extracted.json
+2026-04-16 16:26:50 - FinancialExtractor - INFO - extracted_all_data.py:359 - ============================================================
+2026-04-16 16:26:50 - FinancialExtractor - INFO - extracted_all_data.py:360 - 程序结束
+2026-04-16 16:26:50 - FinancialExtractor - INFO - extracted_all_data.py:361 - ============================================================
+2026-04-16 16:37:06 - FinancialExtractor - INFO - extracted_all_data.py:320 - ============================================================
+2026-04-16 16:37:06 - FinancialExtractor - INFO - extracted_all_data.py:321 - 程序启动
+2026-04-16 16:37:06 - FinancialExtractor - INFO - extracted_all_data.py:322 - ============================================================
+2026-04-16 16:37:06 - FinancialExtractor - INFO - extracted_all_data.py:327 - 扫描目录: E:\github\TAIDI_B\processed\财务报告
+2026-04-16 16:37:06 - FinancialExtractor - INFO - extracted_all_data.py:330 - 找到 1252 个markdown文件
+2026-04-16 16:37:06 - FinancialExtractor - INFO - extracted_all_data.py:335 - 开始处理测试文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_MMWM.md
+2026-04-16 16:37:06 - FinancialExtractor - INFO - extracted_all_data.py:266 - 开始处理文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_MMWM.md
+2026-04-16 16:37:06 - FinancialExtractor - INFO - extracted_all_data.py:275 - 文件读取成功，内容长度: 249845 字符
+2026-04-16 16:37:06 - FinancialExtractor - INFO - extracted_all_data.py:238 - 开始分割和合并段落，原始段落数: 548
+2026-04-16 16:37:06 - FinancialExtractor - INFO - extracted_all_data.py:257 - 段落分割完成，生成 14 个块
+2026-04-16 16:37:06 - FinancialExtractor - INFO - extracted_all_data.py:290 - 处理文件 600080_20230428_MMWM.md 的第 1/14 个块
+2026-04-16 16:37:06 - FinancialExtractor - INFO - extracted_all_data.py:170 - 调用大模型处理文件: 600080_20230428_MMWM.md, prompt长度: 23577
+2026-04-16 16:38:19 - FinancialExtractor - INFO - extracted_all_data.py:192 - 文件 600080_20230428_MMWM.md 数据提取成功
+2026-04-16 16:38:19 - FinancialExtractor - INFO - extracted_all_data.py:290 - 处理文件 600080_20230428_MMWM.md 的第 2/14 个块
+2026-04-16 16:38:19 - FinancialExtractor - INFO - extracted_all_data.py:170 - 调用大模型处理文件: 600080_20230428_MMWM.md, prompt长度: 23531
+2026-04-16 16:39:50 - FinancialExtractor - INFO - extracted_all_data.py:192 - 文件 600080_20230428_MMWM.md 数据提取成功
+2026-04-16 16:39:50 - FinancialExtractor - INFO - extracted_all_data.py:290 - 处理文件 600080_20230428_MMWM.md 的第 3/14 个块
+2026-04-16 16:39:50 - FinancialExtractor - INFO - extracted_all_data.py:170 - 调用大模型处理文件: 600080_20230428_MMWM.md, prompt长度: 23740
+2026-04-16 16:45:52 - FinancialExtractor - ERROR - extracted_all_data.py:204 - 文件 600080_20230428_MMWM.md - 调用大模型失败: Request timed out.
+Traceback (most recent call last):
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "D:\minianaconda\envs\py10\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\minianaconda\envs\py10\lib\site-packages\openai\_base_client.py", line 1005, in request
+    response = self._client.send(
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\minianaconda\envs\py10\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\minianaconda\envs\py10\lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "e:\github\TAIDI_B\task1\extracted_all_data.py", line 175, in call_llm
+    response = client.chat.completions.create(
+  File "D:\minianaconda\envs\py10\lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "D:\minianaconda\envs\py10\lib\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+  File "D:\minianaconda\envs\py10\lib\site-packages\openai\_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "D:\minianaconda\envs\py10\lib\site-packages\openai\_base_client.py", line 1023, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+2026-04-16 16:45:52 - FinancialExtractor - ERROR - extracted_all_data.py:304 - 第 3 个块处理失败: Request timed out.
+2026-04-16 16:45:52 - FinancialExtractor - INFO - extracted_all_data.py:290 - 处理文件 600080_20230428_MMWM.md 的第 4/14 个块
+2026-04-16 16:45:52 - FinancialExtractor - INFO - extracted_all_data.py:170 - 调用大模型处理文件: 600080_20230428_MMWM.md, prompt长度: 25819
+2026-04-16 16:46:23 - FinancialExtractor - INFO - extracted_all_data.py:192 - 文件 600080_20230428_MMWM.md 数据提取成功
+2026-04-16 16:46:23 - FinancialExtractor - INFO - extracted_all_data.py:290 - 处理文件 600080_20230428_MMWM.md 的第 5/14 个块
+2026-04-16 16:46:23 - FinancialExtractor - INFO - extracted_all_data.py:170 - 调用大模型处理文件: 600080_20230428_MMWM.md, prompt长度: 21390
+2026-04-16 17:09:09 - FinancialExtractor - INFO - extracted_all_data.py:620 - 快速测试开始
+2026-04-16 17:09:09 - FinancialExtractor - INFO - extracted_all_data.py:621 - 测试文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_MMWM.md
+2026-04-16 17:09:09 - FinancialExtractor - INFO - extracted_all_data.py:290 - 开始处理文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_MMWM.md
+2026-04-16 17:09:09 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件读取成功，内容长度: 249845 字符
+2026-04-16 17:09:09 - FinancialExtractor - INFO - extracted_all_data.py:265 - 开始分割和合并段落，原始段落数: 548
+2026-04-16 17:09:09 - FinancialExtractor - INFO - extracted_all_data.py:284 - 段落分割完成，生成 18 个块
+2026-04-16 17:09:09 - FinancialExtractor - INFO - extracted_all_data.py:310 - 处理文件 600080_20230428_MMWM.md 的第 1/18 个块
+2026-04-16 17:09:09 - FinancialExtractor - INFO - extracted_all_data.py:183 - 调用大模型处理文件: 600080_20230428_MMWM.md, prompt长度: 19581
+2026-04-16 17:10:21 - FinancialExtractor - INFO - extracted_all_data.py:214 - 文件 600080_20230428_MMWM.md 数据提取成功
+2026-04-16 17:10:21 - FinancialExtractor - INFO - extracted_all_data.py:310 - 处理文件 600080_20230428_MMWM.md 的第 2/18 个块
+2026-04-16 17:10:21 - FinancialExtractor - INFO - extracted_all_data.py:183 - 调用大模型处理文件: 600080_20230428_MMWM.md, prompt长度: 20443
+2026-04-16 17:11:17 - FinancialExtractor - INFO - extracted_all_data.py:214 - 文件 600080_20230428_MMWM.md 数据提取成功
+2026-04-16 17:11:17 - FinancialExtractor - INFO - extracted_all_data.py:310 - 处理文件 600080_20230428_MMWM.md 的第 3/18 个块
+2026-04-16 17:11:17 - FinancialExtractor - INFO - extracted_all_data.py:183 - 调用大模型处理文件: 600080_20230428_MMWM.md, prompt长度: 18176
+2026-04-16 17:12:46 - FinancialExtractor - INFO - extracted_all_data.py:214 - 文件 600080_20230428_MMWM.md 数据提取成功
+2026-04-16 17:12:46 - FinancialExtractor - INFO - extracted_all_data.py:310 - 处理文件 600080_20230428_MMWM.md 的第 4/18 个块
+2026-04-16 17:12:46 - FinancialExtractor - INFO - extracted_all_data.py:183 - 调用大模型处理文件: 600080_20230428_MMWM.md, prompt长度: 17443
+2026-04-16 17:14:39 - FinancialExtractor - INFO - extracted_all_data.py:214 - 文件 600080_20230428_MMWM.md 数据提取成功
+2026-04-16 17:14:39 - FinancialExtractor - INFO - extracted_all_data.py:310 - 处理文件 600080_20230428_MMWM.md 的第 5/18 个块
+2026-04-16 17:14:39 - FinancialExtractor - INFO - extracted_all_data.py:183 - 调用大模型处理文件: 600080_20230428_MMWM.md, prompt长度: 22590
+2026-04-16 17:20:41 - FinancialExtractor - ERROR - extracted_all_data.py:226 - 文件 600080_20230428_MMWM.md - 调用失败 (尝试 1/3): Request timed out.
+2026-04-16 17:26:44 - FinancialExtractor - ERROR - extracted_all_data.py:226 - 文件 600080_20230428_MMWM.md - 调用失败 (尝试 2/3): Request timed out.
