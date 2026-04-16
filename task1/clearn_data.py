@@ -3,7 +3,7 @@ import os
 import base64
 from openai import OpenAI
 from pathlib import Path
-from config import Config
+from util.config import Config
 client = OpenAI(
         api_key=Config.DeepSeek.API_KEY,
         base_url=Config.DeepSeek.API_URL
