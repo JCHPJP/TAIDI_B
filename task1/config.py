@@ -22,7 +22,7 @@ class Config:
     class GLM_4_5_Flash:
         MODEL_NAME = "GLM-4.5-Flash"  # 或你的模型名
         MAX_WORKERS = 30  # 最大并发
-    class DeepSeek:
+    class VDeepSeek:
         API_KEY = "dummy"
         BASE_URL = "http://1.2.3.4:8000/v1"  # 服务器公网IP
         TIMEOUT = 180
