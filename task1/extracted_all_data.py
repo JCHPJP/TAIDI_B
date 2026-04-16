@@ -4,7 +4,7 @@ import sqlite3
 import os
 import logging
 from openai import OpenAI
-
+from AllMd import getAllMarkdownFiles
 import time
 from pathlib import Path
 
@@ -148,8 +148,7 @@ def split_and_merge(paragraphs):
         result.append(current)
     return result
 
-def main():
-    file = 'F:\\dddd\\财务报告\\reports-上交所\\600080_20230428_MMWM.md'
+def Single(file = 'F:\\dddd\\财务报告\\reports-上交所\\600080_20230428_MMWM.md'):
     with open( file, 'r', encoding='utf-8') as f:
         financial_data = f.read()#全文
     paragraphs = financial_data.split('#')  # 按换行分割段落
@@ -163,13 +162,10 @@ def main():
         prompt = get_prompt()
         prompt = prompt.replace("{last_data}", last_data)  
         prompt = prompt.replace("{new_text}", segment)
-        print(len(prompt) )
         response = call_llm(prompt)
-    
-        print(response)
         response_map_data = response.get("data")
-        
         last_data = json.dumps(response_map_data, ensure_ascii=False, indent=2)
-        print(last_data)
+    return (Path(file).name , last_data)
 if __name__ == "__main__":
-    print( call_llm("请提取以下文本中的财务数据：\n\n" + "这是一个测试文本，包含一些财务信息。") )
+    currenfile = getAllMarkdownFiles(Path.cwd().parent / "processed" /"财务报告") 
+    print(Single(currenfile[0]))

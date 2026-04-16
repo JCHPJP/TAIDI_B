@@ -22,9 +22,10 @@ class Config:
     class GLM_4_5_Flash:
         MODEL_NAME = "GLM-4.5-Flash"  # 或你的模型名
         MAX_WORKERS = 30  # 最大并发
-    class VDeepSeek:
-        API_KEY = "dummy"
-        BASE_URL = "http://1.2.3.4:8000/v1"  # 服务器公网IP
+    class DeepSeek_R1_Distill_Qwen_32B:
+        API_KEY = "fGnug0e7b8iHDACBIYCfwEVGJI4NCULAFihmTfJSfh4="
+        BASE_URL = "http://127.0.0.1:6007/v1"  # 服务器公网IP
+        MODEL_NAME= "DeepSeek-R1-Distill-Qwen-32B"  # 或你的模型名
         TIMEOUT = 180
 
     # 输出配置
