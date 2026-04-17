@@ -233,17 +233,18 @@ def main():
 
 if __name__ == "__main__":
     # updateinfors()
-    from collections import defaultdict
-    d1 = defaultdict(int)
-    folds = Path(__file__).parent / 'output' 
-    json_files = list(Path(folds).glob('*.json'))
-    total = 0 
-    for i in json_files:
-        with open(i, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            d1[data['报告信息']['报告年份']] +=1
-            total += 1 
-    print(d1 , total )
+    # from collections import defaultdict
+    # d1 = defaultdict(int)
+    # folds = Path(__file__).parent / 'output' 
+    # json_files = list(Path(folds).glob('*.json'))
+    # total = 0 
+    # for i in json_files:
+    #     with open(i, 'r', encoding='utf-8') as f:
+    #         data = json.load(f)
+    #         d1[data['报告信息']['报告年份']] +=1
+    #         total += 1 
+    # print(d1 , total )
+    main()
 
     # results = []
     # with ThreadPoolExecutor(max_workers=200) as executor:

@@ -20,10 +20,10 @@ def singel(file_name):
     with open(file_name , encoding='utf-8') as f :
         data = json.load(f)
     stock_code  =data['报告信息']['股票代码']
-    period = data['报告信息']['期']
+    period = data['报告信息']['报告期']
     current_year = data['报告信息']['报告年份']
     two_year_data = getTwoyear(stock_code=stock_code,period=period, current_year=current_year)
-    
+
 
 
 def main():
