@@ -10,7 +10,7 @@ class Config:
         BASE_URL = "https://llmapi.paratera.com"  
         API_KEY = "sk-dytOWzjPF9NJrP-zC7_5yg"
         MODEL_NAME = "DeepSeek-V3.2"  # 或你的模型名
-        TIMEOUT = 120  
+        TIMEOUT = 480 
     
     class GLM_4V_Flash:
         MODEL_NAME = "GLM-4V-Flash"  # 或你的模型名
@@ -24,7 +24,7 @@ class Config:
         MAX_WORKERS = 30  # 最大并发
     class DeepSeek_R1_Distill_Qwen_32B:
         API_KEY = "fGnug0e7b8iHDACBIYCfwEVGJI4NCULAFihmTfJSfh4="
-        BASE_URL = "http://127.0.0.1:6007/v1/chat/completions"  # 私人公网IP
+        BASE_URL = "http://127.0.0.1:6007/v1"  # 私人公网IP
         MODEL_NAME= "DeepSeek-R1-Distill-Qwen-32B"  # 模型名
         TIMEOUT = 180
 

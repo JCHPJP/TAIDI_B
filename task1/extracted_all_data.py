@@ -8,69 +8,63 @@ from pathlib import Path
 from datetime import datetime
 from config import Config
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from threading import Lock
+import threading
+import signal
+import sys
+
+# ==================== 全局配置 ====================
+stats_lock = threading.Lock()
+_client_instance = None
+_client_lock = threading.Lock()
+processed_files_lock = threading.Lock()
 
 # ==================== 配置日志 ====================
 def setup_logger(name=None, log_level=logging.INFO):
     """设置日志配置"""
-    # 创建日志目录
     log_dir = "logs"
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
     
-    # 生成日志文件名（按日期）
     log_filename = f"{log_dir}/financial_extract_{datetime.now().strftime('%Y%m%d')}.log"
     error_log_filename = f"{log_dir}/financial_extract_error_{datetime.now().strftime('%Y%m%d')}.log"
     
-    # 创建logger
     logger = logging.getLogger(name) if name else logging.getLogger(__name__)
     logger.setLevel(log_level)
     
-    # 避免重复添加handler
     if logger.handlers:
         return logger
     
-    # 创建格式化器
     formatter = logging.Formatter(
         '%(asctime)s - %(name)s - %(levelname)s - %(filename)s:%(lineno)d - %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S'
     )
     
-    # 文件处理器（记录所有日志）
     file_handler = logging.FileHandler(log_filename, encoding='utf-8')
     file_handler.setLevel(log_level)
     file_handler.setFormatter(formatter)
     
-    # 错误日志处理器（只记录错误）
     error_handler = logging.FileHandler(error_log_filename, encoding='utf-8')
     error_handler.setLevel(logging.ERROR)
     error_handler.setFormatter(formatter)
     
-    # 控制台处理器
     console_handler = logging.StreamHandler()
     console_handler.setLevel(log_level)
     console_handler.setFormatter(formatter)
     
-    # 添加处理器
     logger.addHandler(file_handler)
     logger.addHandler(error_handler)
     logger.addHandler(console_handler)
     
     return logger
 
-# 创建全局logger
 logger = setup_logger('FinancialExtractor')
 
 # ==================== 配置 ====================
-DB_PATH = "financial_data.db"
-PROMPT_FILE = "prompt-extract.md"
-MAX_WORKERS = 10  # 线程数，可根据API限制和机器性能调整
-OUTPUT_DIR = Path("output")  # 输出目录
+PROMPT_FILE = Path().cwd() / "prompt-extract.md"
+schema_path = Path().cwd() / 'financial_schema.json'
+OUTPUT_DIR = Path("output")
+PROGRESS_FILE = OUTPUT_DIR / "progress.json"
 # ============================================
-
-# 线程锁，用于保护共享资源
-file_lock = Lock()
-stats_lock = Lock()
 
 # 统计信息
 stats = {
@@ -81,44 +75,158 @@ stats = {
     "end_time": None
 }
 
-def get_client():
-    """每个线程独立创建客户端"""
+# 已处理文件集合（用于断点续传）
+processed_files = set()
+
+def load_progress():
+    """加载已处理进度"""
+    global processed_files
+    if PROGRESS_FILE.exists():
+        try:
+            with open(PROGRESS_FILE, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                processed_files = set(data.get("processed", []))
+                logger.info(f"加载进度: 已处理 {len(processed_files)} 个文件")
+        except Exception as e:
+            logger.warning(f"加载进度文件失败: {e}")
+
+def save_progress():
+    """保存处理进度"""
     try:
-        logger.debug("正在创建OpenAI客户端")
-        return OpenAI(
-            api_key=Config.DeepSeek.API_KEY,
-            base_url=Config.DeepSeek.BASE_URL,  
-            timeout=Config.DeepSeek.TIMEOUT
-        )
+        with processed_files_lock:
+            with open(PROGRESS_FILE, 'w', encoding='utf-8') as f:
+                json.dump({"processed": list(processed_files)}, f, ensure_ascii=False)
     except Exception as e:
-        logger.error(f"创建OpenAI客户端失败: {e}", exc_info=True)
-        raise
+        logger.error(f"保存进度失败: {e}")
 
-def getAllMarkdownFiles(path= Path.cwd().parent / "processed" /"财务报告" )->list:
-    print(f"正在扫描目录 {path} 下的所有 Markdown 文件...")
-    md_files = Path(path).rglob("*.md")
-    return  [ str(file) for file in md_files]
+def signal_handler(signum, frame):
+    """优雅退出处理"""
+    logger.info(f"\n收到信号 {signum}，正在保存进度...")
+    save_progress()
+    logger.info("进度已保存，程序退出")
+    sys.exit(0)
 
+# 注册信号处理
+signal.signal(signal.SIGINT, signal_handler)
+signal.signal(signal.SIGTERM, signal_handler)
 
-def extract_json(text):
-    """从大模型返回的文本中提取JSON（处理各种包装格式和不完整JSON）"""
-    if not text:
-        logger.warning("提取JSON时接收到空文本")
+def get_client(api_key=Config.DeepSeek.API_KEY, base_url=Config.DeepSeek.BASE_URL, timeout=None):
+    """获取OpenAI客户端（单例模式）"""
+    global _client_instance
+    with _client_lock:
+        if _client_instance is None:
+            _client_instance = OpenAI(
+                api_key=api_key,
+                base_url=base_url,
+                timeout=timeout or Config.DeepSeek.TIMEOUT
+            )
+        return _client_instance
+
+def getAllMarkdownFiles(path=Path(__file__).parent.parent / "processed" / "财务报告") -> list:
+    """获取所有未处理的Markdown文件（自动跳过已生成JSON的文件）"""
+    
+    md_files_path = Path(path)
+    print(f"正在扫描目录 {md_files_path} 下的所有 Markdown 文件...")
+    
+    if not md_files_path.exists():
+        logger.error(f"目录不存在: {md_files_path}")
+        return []
+    
+    all_md_files = list(md_files_path.rglob("*.md"))
+    
+    # 获取已处理的文件（已生成JSON的文件）
+    output_dir = Path(__file__).parent / "output"
+    already_processed = set()
+    
+    if output_dir.exists():
+        already_processed = {
+            file.stem for file in output_dir.rglob("*.json")
+        }
+        logger.info(f"已处理文件数: {len(already_processed)}")
+    
+    # 加载进度文件中的已处理文件
+    load_progress()
+    already_processed.update(processed_files)
+    
+    # 过滤：只保留未处理的文件
+    unprocessed_files = [
+        str(md_file) for md_file in all_md_files 
+        if md_file.stem not in already_processed
+    ]
+    
+    logger.info(f"扫描完成:")
+    logger.info(f"  - 总Markdown文件: {len(all_md_files)}")
+    logger.info(f"  - 已处理文件: {len(already_processed)}")
+    logger.info(f"  - 待处理文件: {len(unprocessed_files)}")
+    
+    return unprocessed_files
+
+def fix_json_with_llm(broken_json, max_retries=2):
+    """使用大模型修复不完整的JSON"""
+    if not broken_json:
         return None
     
-    logger.debug(f"开始提取JSON，文本长度: {len(text)}")
+    logger.info(f"尝试修复不完整的JSON，长度: {len(broken_json)}")
     
-    # 先尝试提取代码块中的内容
+    fix_prompt = f"""以下是一个不完整的JSON字符串，请修复成完整、合法的JSON格式。
+
+不完整的JSON:
+{broken_json}
+
+要求：
+1. 只返回修复后的JSON，不要包含其他解释性文字
+2. 保持原有的字段和值不变
+3. 补充缺失的括号、引号等
+4. 确保JSON格式正确
+
+请直接返回修复后的JSON："""
+
+    for attempt in range(max_retries):
+        try:
+            # 修复时使用更长的超时
+            timeout = 120
+            client = get_client(timeout=timeout)
+            response = client.chat.completions.create(
+                model=Config.DeepSeek.MODEL_NAME,
+                messages=[
+                    {"role": "system", "content": "你是一个JSON修复专家。只返回修复后的JSON，不要有其他内容。"},
+                    {"role": "user", "content": fix_prompt}
+                ],
+                temperature=0.1,
+                max_tokens=4000,
+                stream=False,
+                timeout=timeout
+            )
+            
+            fixed_content = response.choices[0].message.content.strip()
+            fixed_json = extract_json(fixed_content)
+            
+            if fixed_json:
+                logger.info(f"✅ JSON修复成功")
+                return fixed_json
+            else:
+                logger.warning(f"修复后仍无法解析，重试 {attempt + 1}/{max_retries}")
+                
+        except Exception as e:
+            logger.error(f"修复JSON失败: {e}")
+        
+        if attempt < max_retries - 1:
+            time.sleep(2 ** attempt)  # 指数退避
+    
+    logger.error("JSON修复失败")
+    return None
+
+def extract_json(text) -> dict:
+    """从文本中提取JSON"""
+    if not text:
+        return None
+    
     cleaned_text = text
-    
-    # 提取 ```json ... ``` 或 ``` ... ``` 中的内容
     code_pattern = r'```(?:json)?\s*([\s\S]*?)\s*```'
     match = re.search(code_pattern, text)
     if match:
         cleaned_text = match.group(1)
-        logger.debug("提取到代码块内容")
     
-    # 尝试找到完整的JSON对象
     brace_count = 0
     start_pos = -1
     end_pos = -1
@@ -136,40 +244,27 @@ def extract_json(text):
     
     if start_pos != -1 and end_pos != -1:
         json_str = cleaned_text[start_pos:end_pos]
-        logger.debug(f"提取到JSON字符串，长度: {len(json_str)}")
-        
-        # 尝试解析
         try:
             return json.loads(json_str)
-        except json.JSONDecodeError as e:
-            logger.warning(f"JSON解析失败: {e}，尝试修复")
-            
-            # 尝试修复不完整的JSON
+        except:
             try:
-                # 添加缺失的闭合括号
                 open_braces = json_str.count('{')
                 close_braces = json_str.count('}')
                 if open_braces > close_braces:
                     json_str += '}' * (open_braces - close_braces)
-                    logger.debug(f"添加 {open_braces - close_braces} 个闭合括号")
-                
                 open_brackets = json_str.count('[')
                 close_brackets = json_str.count(']')
                 if open_brackets > close_brackets:
                     json_str += ']' * (open_brackets - close_brackets)
-                    logger.debug(f"添加 {open_brackets - close_brackets} 个闭合方括号")
-                
                 return json.loads(json_str)
             except:
                 pass
     
-    # 直接解析
     try:
         return json.loads(cleaned_text.strip())
     except:
         pass
     
-    # 提取 { ... } 花括号内容
     brace_pattern = r'\{[\s\S]*\}'
     match = re.search(brace_pattern, cleaned_text)
     if match:
@@ -178,48 +273,59 @@ def extract_json(text):
         except:
             pass
     
-    logger.error(f"所有JSON提取方法都失败")
     return None
 
-def call_llm(prompt, file_name="", max_retries=3):
-    """调用大模型，支持重试"""
+def call_llm(prompt, file_name="", max_retries=5):
+    """调用大模型，增加重试机制和动态超时"""
     logger.info(f"调用大模型处理文件: {file_name}, prompt长度: {len(prompt)}")
     start_time = time.time()
     
     for attempt in range(max_retries):
         try:
-            client = get_client()
+            # 动态超时：根据重试次数增加超时时间
+            timeout = Config.DeepSeek.TIMEOUT * (attempt + 1)
+            client = get_client(timeout=timeout)
+            
             response = client.chat.completions.create(
-                model=Config.GLM_4_Flash.MODEL_NAME,
+                model=Config.DeepSeek.MODEL_NAME,
                 messages=[
                     {"role": "system", "content": "你是一个专业的财务数据提取专家。请严格按照JSON格式返回结果，不要包含其他解释性文字。确保JSON完整，不要截断。"},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.2,
+                temperature=0.6,
                 stream=False,
-                max_tokens=4000  # 增加到4000
+                max_tokens=4000,
+                timeout=timeout
             )
             
             elapsed_time = time.time() - start_time
-            content = response.choices[0].message.content.strip()
-            logger.debug(f"大模型响应成功，耗时: {elapsed_time:.2f}秒，响应长度: {len(content)}")
+            content = response.choices[0].message.content
             
-            # 检查响应是否完整
             if content.count('{') != content.count('}'):
-                logger.warning(f"JSON括号不匹配，可能被截断。{{ count: {content.count('{')}, }} count: {content.count('}')}")
-                if attempt < max_retries - 1:
-                    logger.info(f"重试第 {attempt + 2} 次...")
-                    time.sleep(2)
-                    continue
+                logger.warning(f"JSON括号不匹配，尝试修复...")
+                
+                fixed_result = fix_json_with_llm(content)
+                
+                if fixed_result:
+                    logger.info(f"文件 {file_name} JSON修复成功")
+                    return {"success": True, "data": fixed_result, "file": file_name}
+                else:
+                    if attempt < max_retries - 1:
+                        wait_time = min(2 ** attempt, 30)
+                        logger.info(f"JSON修复失败，等待 {wait_time} 秒后重试...")
+                        time.sleep(wait_time)
+                        continue
+                    else:
+                        logger.error(f"文件 {file_name} JSON修复失败，已达最大重试次数")
+                        return {"success": False, "error": "JSON解析失败且无法修复", "file": file_name}
             
             result = extract_json(content)
             if result:
-                logger.info(f"文件 {file_name} 数据提取成功")
+                logger.info(f"文件 {file_name} 数据提取成功，耗时: {elapsed_time:.2f}秒")
                 return {"success": True, "data": result, "file": file_name}
             else:
                 logger.error(f"文件 {file_name} JSON解析失败")
                 if attempt < max_retries - 1:
-                    logger.info(f"重试第 {attempt + 2} 次...")
                     time.sleep(2)
                     continue
                 return {"success": False, "error": "JSON解析失败", "file": file_name}
@@ -227,103 +333,110 @@ def call_llm(prompt, file_name="", max_retries=3):
         except Exception as e:
             error_msg = str(e)
             logger.error(f"文件 {file_name} - 调用失败 (尝试 {attempt + 1}/{max_retries}): {error_msg}")
+            
             if attempt < max_retries - 1:
-                time.sleep(2)  # 等待2秒后重试
+                # 根据错误类型设置不同的等待时间
+                if "timeout" in error_msg.lower():
+                    wait_time = min(2 ** (attempt + 1), 60)  # 2,4,8,16,32秒，最大60秒
+                elif "rate_limit" in error_msg.lower():
+                    wait_time = 10  # 限流等待10秒
+                else:
+                    wait_time = 2
+                
+                logger.info(f"等待 {wait_time} 秒后重试...")
+                time.sleep(wait_time)
                 continue
             return {"success": False, "error": error_msg, "file": file_name}
     
     return {"success": False, "error": "超过最大重试次数", "file": file_name}
 
 def GetDefaultTableData():
-    """获取默认表数据"""
+    """获取默认的表格数据结构"""
     try:
-        schema_path = Path().cwd() / 'financial_schema.json'
-        logger.debug(f"读取默认表数据: {schema_path}")
         with open(schema_path, 'r', encoding='utf-8') as f:
             return f.read()
-    except FileNotFoundError:
-        logger.error(f"找不到financial_schema.json文件: {schema_path}")
-        raise
     except Exception as e:
-        logger.error(f"读取financial_schema.json失败: {e}", exc_info=True)
+        logger.error(f"读取financial_schema.json失败: {e}")
         raise
 
 def get_prompt():
-    """获取提示词模板"""
+    """获取prompt模板"""
     try:
         prompt_path = Path().cwd() / PROMPT_FILE
-        logger.debug(f"读取提示词模板: {prompt_path}")
         with open(prompt_path, 'r', encoding='utf-8') as f:
-            prompt = f.read()
-        return prompt
-    except FileNotFoundError:
-        logger.error(f"找不到{prompt_path}文件")
-        raise
+            return f.read()
     except Exception as e:
-        logger.error(f"读取提示词模板失败: {e}", exc_info=True)
-        raise
+        logger.warning(f"读取prompt文件失败，使用默认模板: {e}")
+        return """
+上次提取的数据：
+{last_data}
+现在从以下新财报中提取数据，更新到上面的JSON中：
+{new_text}
+输出更新后的JSON,只需要**上次提取的数据**字段，禁止添加其他字段，防止输出的json格式错误。输出为json格式
+        """
 
 def split_and_merge(paragraphs):
-    """将段落重新拼接，每段不超过max_len"""
+    """将段落分割成适合模型处理的块"""
     logger.info(f"开始分割和合并段落，原始段落数: {len(paragraphs)}")
     result = []
     current = ""
-    max_len = int(Config.tokens['32k'] * 0.5)  # 降低到0.5避免输出截断
+    max_len = int(Config.tokens['128k'] * 0.8)
     
-    for i, p in enumerate(paragraphs):
-        # 如果当前段加上新段落会超长，就保存当前段，重新开始
+    for p in paragraphs:
         if len(current) + len(p) <= max_len:
             current += p + "\n"
         else:
             if current:
                 result.append(current)
-                logger.debug(f"段落 {i} 创建新块，当前块数量: {len(result)}")
             current = p + "\n"
     
-    # 最后一段
     if current:
         result.append(current)
     
     logger.info(f"段落分割完成，生成 {len(result)} 个块")
     return result
 
-def process_single_file(file_path, prompt_template, default_data):
-    """处理单个文件（用于多线程）"""
+def process_single_file(file_path):
+    """处理单个文件（不包含统计，只返回结果）"""
     file_name = Path(file_path).name
+    output_file = OUTPUT_DIR / f"{Path(file_path).stem}.json"
+    
+    # 检查输出文件是否已存在
+    if output_file.exists():
+        logger.info(f"文件 {file_name} 已存在，跳过处理")
+        return {
+            "file": file_name,
+            "success": True,
+            "skipped": True,
+            "output_file": str(output_file),
+            "path": str(file_path)
+        }
+    
     logger.info(f"开始处理文件: {file_path}")
     start_time = time.time()
     
     try:
-        # 读取文件
         with open(file_path, 'r', encoding='utf-8') as f:
             financial_data = f.read()
         
-        logger.info(f"文件读取成功，内容长度: {len(financial_data)} 字符")
-        
-        # 分割段落
         paragraphs = financial_data.split('#')
-        
-        # 合并段落
         new_segments = split_and_merge(paragraphs)
-        
-        last_data = default_data
-        
-        # 处理每个段落块
+
+        scheme = GetDefaultTableData()
+        prompt_template = get_prompt()
+
         for idx, segment in enumerate(new_segments, 1):
             logger.info(f"处理文件 {file_name} 的第 {idx}/{len(new_segments)} 个块")
             
-            prompt = prompt_template.replace("{last_data}", last_data)
+            prompt = prompt_template.replace("{last_data}", scheme)
             prompt = prompt.replace("{new_text}", segment)
             
             response = call_llm(prompt, file_name)
             
             if response.get("success"):
                 response_map_data = response.get("data")
-                last_data = json.dumps(response_map_data, ensure_ascii=False, indent=2)
-                logger.debug(f"第 {idx} 个块处理成功")
+                scheme = json.dumps(response_map_data, ensure_ascii=False, indent=2)
             else:
-                logger.error(f"第 {idx} 个块处理失败: {response.get('error')}")
-                # 如果处理失败，返回失败
                 return {
                     "file": file_name,
                     "success": False,
@@ -333,22 +446,21 @@ def process_single_file(file_path, prompt_template, default_data):
         
         elapsed_time = time.time() - start_time
         
-        # 保存结果到文件
-        output_file = OUTPUT_DIR / f"{Path(file_path).stem}_extracted.json"
+        # 保存结果
+        OUTPUT_DIR.mkdir(exist_ok=True)
         with open(output_file, 'w', encoding='utf-8') as f:
-            f.write(last_data)
+            f.write(scheme)
         
-        logger.info(f"文件 {file_name} 处理完成，耗时: {elapsed_time:.2f}秒，结果保存到: {output_file}")
+        logger.info(f"文件 {file_name} 处理完成，耗时: {elapsed_time:.2f}秒")
         
-        # 更新成功统计
-        with stats_lock:
-            stats["success"] += 1
-            logger.info(f"进度: {stats['success'] + stats['failed']}/{stats['total']} - 成功: {stats['success']}, 失败: {stats['failed']}")
+        # 记录到已处理集合
+        with processed_files_lock:
+            processed_files.add(Path(file_path).stem)
         
         return {
             "file": file_name,
             "success": True,
-            "data": last_data,
+            "data": scheme,
             "output_file": str(output_file),
             "time": elapsed_time,
             "path": str(file_path)
@@ -356,12 +468,6 @@ def process_single_file(file_path, prompt_template, default_data):
         
     except Exception as e:
         logger.error(f"处理文件 {file_path} 时发生错误: {e}", exc_info=True)
-        
-        # 更新失败统计
-        with stats_lock:
-            stats["failed"] += 1
-            logger.info(f"进度: {stats['success'] + stats['failed']}/{stats['total']} - 成功: {stats['success']}, 失败: {stats['failed']}")
-        
         return {
             "file": file_name,
             "success": False,
@@ -369,239 +475,173 @@ def process_single_file(file_path, prompt_template, default_data):
             "path": str(file_path)
         }
 
-def process_files_multithread(files, max_workers=MAX_WORKERS):
+def process_files_multithread(files, max_workers=10):
     """多线程处理文件"""
-    # 创建输出目录
     OUTPUT_DIR.mkdir(exist_ok=True)
     
-    # 准备模板和默认数据
-    prompt_template = get_prompt()
-    default_data = GetDefaultTableData()
+    stats["total"] = len(files)
+    stats["start_time"] = datetime.now()
+    stats["success"] = 0
+    stats["failed"] = 0
     
-    # 更新统计信息
-    with stats_lock:
-        stats["total"] = len(files)
-        stats["start_time"] = datetime.now()
-    
-    logger.info(f"开始处理 {len(files)} 个文件，使用 {max_workers} 个线程")
+    logger.info("="*60)
+    logger.info(f"开始多线程处理 {len(files)} 个文件，线程数: {max_workers}")
+    logger.info("="*60)
     
     results = []
+    failed_files = []
+    completed = 0
     
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        # 提交所有任务
         future_to_file = {
-            executor.submit(process_single_file, file_path, prompt_template, default_data): file_path
+            executor.submit(process_single_file, file_path): file_path
             for file_path in files
         }
         
-        # 处理完成的任务
         for future in as_completed(future_to_file):
             file_path = future_to_file[future]
+            completed += 1
+            
             try:
                 result = future.result()
+                
+                if result.get("success"):
+                    with stats_lock:
+                        stats["success"] += 1
+                    logger.info(f"✅ 进度: [{completed}/{len(files)}] 成功 - {Path(file_path).name}")
+                else:
+                    with stats_lock:
+                        stats["failed"] += 1
+                    failed_files.append(result)
+                    logger.error(f"❌ 进度: [{completed}/{len(files)}] 失败 - {Path(file_path).name} - 错误: {result.get('error')}")
+                
                 results.append(result)
+                
+                # 每10个文件保存一次进度
+                if completed % 10 == 0:
+                    save_progress()
+                    logger.info(f"📊 阶段性统计: 已完成 {completed}/{len(files)}, "
+                              f"成功: {stats['success']}, 失败: {stats['failed']}")
                 
             except Exception as e:
                 logger.error(f"处理文件 {file_path} 时发生异常: {e}", exc_info=True)
-                results.append({
+                failed_result = {
                     "file": Path(file_path).name,
                     "success": False,
                     "error": str(e),
                     "path": str(file_path)
-                })
+                }
+                results.append(failed_result)
+                failed_files.append(failed_result)
                 with stats_lock:
                     stats["failed"] += 1
-                    logger.info(f"进度: {stats['success'] + stats['failed']}/{stats['total']} - 成功: {stats['success']}, 失败: {stats['failed']}")
     
-    with stats_lock:
-        stats["end_time"] = datetime.now()
+    stats["end_time"] = datetime.now()
+    elapsed_time = (stats["end_time"] - stats["start_time"]).total_seconds()
+    
+    # 最终保存进度
+    save_progress()
+    
+    # 最终统计
+    logger.info("="*60)
+    logger.info("多线程处理完成")
+    logger.info(f"📊 最终统计:")
+    logger.info(f"   总文件数: {stats['total']}")
+    logger.info(f"   成功: {stats['success']}")
+    logger.info(f"   失败: {stats['failed']}")
+    if stats['total'] > 0:
+        logger.info(f"   成功率: {stats['success']/stats['total']*100:.2f}%")
+    logger.info(f"   总耗时: {elapsed_time:.2f}秒")
+    if len(files) > 0:
+        logger.info(f"   平均每个文件: {elapsed_time/len(files):.2f}秒")
+    logger.info("="*60)
+    
+    # 保存处理报告
+    report_file = OUTPUT_DIR / f"processing_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    report_data = {
+        "start_time": stats["start_time"].isoformat(),
+        "end_time": stats["end_time"].isoformat(),
+        "total": stats["total"],
+        "success": stats["success"],
+        "failed": stats["failed"],
+        "total_time_seconds": elapsed_time,
+        "failed_files": [
+            {"file": f.get("file"), "error": f.get("error")} 
+            for f in failed_files
+        ]
+    }
+    if stats['total'] > 0:
+        report_data["success_rate"] = f"{stats['success']/stats['total']*100:.2f}%"
+        report_data["avg_time_per_file"] = elapsed_time / len(files)
+    
+    with open(report_file, 'w', encoding='utf-8') as f:
+        json.dump(report_data, f, ensure_ascii=False, indent=2)
+    
+    logger.info(f"📄 处理报告已保存: {report_file}")
     
     return results
 
-def save_summary_report(results):
-    """保存处理总结报告"""
-    summary_file = OUTPUT_DIR / f"processing_summary_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+def retry_failed_files(failed_files, max_workers=5, max_retries=2):
+    """重试失败的文件"""
+    if not failed_files:
+        logger.info("没有失败的文件需要重试")
+        return []
     
-    summary = {
-        "statistics": {
-            "total": stats["total"],
-            "success": stats["success"],
-            "failed": stats["failed"],
-            "start_time": stats["start_time"].isoformat() if stats["start_time"] else None,
-            "end_time": stats["end_time"].isoformat() if stats["end_time"] else None
-        },
-        "total_time": str(stats["end_time"] - stats["start_time"]) if stats["start_time"] and stats["end_time"] else "N/A",
-        "success_files": [r for r in results if r["success"]],
-        "failed_files": [{"file": r["file"], "error": r.get("error", "未知错误")} for r in results if not r["success"]]
-    }
-    
-    with open(summary_file, 'w', encoding='utf-8') as f:
-        json.dump(summary, f, ensure_ascii=False, indent=2)
-    
-    logger.info(f"处理总结报告已保存到: {summary_file}")
-    
-    # 打印统计信息
     logger.info("="*60)
-    logger.info("处理完成统计:")
-    logger.info(f"总文件数: {stats['total']}")
-    logger.info(f"成功: {stats['success']}")
-    logger.info(f"失败: {stats['failed']}")
-    logger.info(f"成功率: {stats['success']/stats['total']*100:.2f}%")
-    logger.info(f"开始时间: {stats['start_time']}")
-    logger.info(f"结束时间: {stats['end_time']}")
-    logger.info(f"总耗时: {summary['total_time']}")
+    logger.info(f"开始重试 {len(failed_files)} 个失败文件")
     logger.info("="*60)
     
-    # 打印失败的文件
-    if summary["failed_files"]:
-        logger.warning("失败的文件列表:")
-        for failed in summary["failed_files"]:
-            logger.warning(f"  - {failed['file']}: {failed['error']}")
-
-def test_single_file(file_path=None):
-    """测试单个文件处理"""
-    logger.info("="*60)
-    logger.info("测试模式 - 处理单个文件")
-    logger.info("="*60)
+    # 等待一段时间后再重试
+    time.sleep(10)
     
-    try:
-        # 如果没有指定文件，使用默认测试文件
-        if file_path is None:
-            file_path = 'E:\\github\\TAIDI_B\\processed\\财务报告\\reports-上交所\\600080_20230428_MMWM.md'
-        
-        logger.info(f"测试文件: {file_path}")
-        
-        # 检查文件是否存在
-        if not os.path.exists(file_path):
-            logger.error(f"测试文件不存在: {file_path}")
-            return None
-        
-        # 准备模板和默认数据
-        prompt_template = get_prompt() ## 缺两个参数
-        default_data = GetDefaultTableData() ## 填充表格数据
-        
-        # 处理单个文件
-        result = process_single_file(file_path, prompt_template, default_data)
-        
-        # 打印测试结果
-        logger.info("="*60)
-        logger.info("测试结果:")
-        if result["success"]:
-            logger.info(f"✅ 文件处理成功: {result['file']}")
-            logger.info(f"📁 输出文件: {result['output_file']}")
-            logger.info(f"⏱️  耗时: {result['time']:.2f}秒")
-            logger.info(f"📊 数据长度: {len(result['data'])} 字符")
-            
-            # 可选：打印提取的数据摘要
-            try:
-                data_preview = json.loads(result['data'])
-                logger.info(f"📋 数据摘要: {json.dumps(data_preview, ensure_ascii=False, indent=2)[:500]}...")
-            except:
-                pass
-        else:
-            logger.error(f"❌ 文件处理失败: {result['file']}")
-            logger.error(f"错误信息: {result.get('error', '未知错误')}")
-        
-        logger.info("="*60)
-        return result
-        
-    except Exception as e:
-        logger.error(f"测试过程中发生错误: {e}", exc_info=True)
-        return None
-
-def test_with_custom_file():
-    """使用自定义文件进行测试"""
-    logger.info("="*60)
-    logger.info("自定义文件测试")
-    logger.info("="*60)
+    # 提取文件路径
+    file_paths = [f.get("path") for f in failed_files if f.get("path")]
     
-    # 可以在这里指定要测试的文件
-    test_files = [
-        'E:\\github\\TAIDI_B\\processed\\财务报告\\reports-上交所\\600080_20230428_MMWM.md',
-        # 可以添加更多测试文件
-        # 'E:\\github\\TAIDI_B\\processed\\财务报告\\reports-上交所\\600123_20230428_XXXX.md',
-    ]
+    # 降低并发数重试
+    retry_results = process_files_multithread(file_paths, max_workers=max_workers)
     
-    for test_file in test_files:
-        if os.path.exists(test_file):
-            logger.info(f"\n测试文件: {os.path.basename(test_file)}")
-            result = test_single_file(test_file)
-            if result and result["success"]:
-                logger.info(f"✅ {os.path.basename(test_file)} 测试通过")
-            else:
-                logger.error(f"❌ {os.path.basename(test_file)} 测试失败")
-        else:
-            logger.warning(f"测试文件不存在: {test_file}")
+    return retry_results
 
 def main():
-    """主函数 - 可选择运行模式"""
-    import sys
-    
-    # 检查命令行参数
-    if len(sys.argv) > 1:
-        mode = sys.argv[1]
-        
-        if mode == "test":
-            # 测试单个文件
-            if len(sys.argv) > 2:
-                # 使用指定的文件
-                test_single_file(sys.argv[2])
-            else:
-                # 使用默认测试文件
-                test_single_file()
-        elif mode == "test-custom":
-            # 测试自定义文件列表
-            test_with_custom_file()
-        elif mode == "batch":
-            # 批量处理所有文件
-            logger.info("批量处理模式")
-            run_batch_processing()
-        else:
-            logger.error(f"未知模式: {mode}")
-            print("使用方法:")
-            print("  python script.py test           # 测试默认文件")
-            print("  python script.py test <file>    # 测试指定文件")
-            print("  python script.py test-custom    # 测试自定义文件列表")
-            print("  python script.py batch          # 批量处理所有文件")
-            print("  python script.py                # 默认批量处理")
-    else:
-        # 默认运行批量处理
-        run_batch_processing()
-
-def run_batch_processing():
-    """批量处理所有文件"""
+    """主函数"""
     logger.info("="*60)
-    logger.info("批量处理模式启动")
+    logger.info("程序启动")
     logger.info("="*60)
     
     try:
-        # 获取所有markdown文件
         reports_path = Path.cwd().parent / "processed" / "财务报告"
         logger.info(f"扫描目录: {reports_path}")
-        
-        all_files = getAllMarkdownFiles(reports_path)
+        all_files = getAllMarkdownFiles(reports_path) 
         logger.info(f"找到 {len(all_files)} 个markdown文件")
         
         if not all_files:
             logger.warning("没有找到markdown文件")
             return
         
-        # 可以选择处理所有文件或只处理一部分进行测试
-        # 处理所有文件
-        files_to_process = all_files
+        # 第一轮处理
+        results = process_files_multithread(all_files, max_workers=10)
         
-        # 或者只处理前N个文件进行测试
-        # test_count = 5
-        # files_to_process = all_files[:test_count]
-        # logger.info(f"测试模式：只处理前 {test_count} 个文件")
+        # 收集失败的文件
+        failed_files = [r for r in results if not r.get("success")]
         
-        logger.info(f"开始多线程处理，线程数: {MAX_WORKERS}")
-        
-        # 多线程处理
-        results = process_files_multithread(files_to_process, max_workers=MAX_WORKERS)
-        
-        # 保存总结报告
-        save_summary_report(results)
+        # 如果有失败的文件，进行重试
+        if failed_files:
+            logger.info(f"发现 {len(failed_files)} 个失败文件，准备重试...")
+            retry_results = retry_failed_files(failed_files, max_workers=5)
+            
+            # 更新最终统计
+            final_success = len([r for r in results if r.get("success")]) + \
+                           len([r for r in retry_results if r.get("success")])
+            final_failed = len([r for r in results if not r.get("success")]) - \
+                          len([r for r in retry_results if r.get("success")])
+            
+            logger.info("="*60)
+            logger.info("最终统计（含重试）:")
+            logger.info(f"   总文件数: {len(all_files)}")
+            logger.info(f"   成功: {final_success}")
+            logger.info(f"   失败: {final_failed}")
+            logger.info(f"   成功率: {final_success/len(all_files)*100:.2f}%")
+            logger.info("="*60)
         
         logger.info("所有文件处理完成！")
         
@@ -612,13 +652,11 @@ def run_batch_processing():
     logger.info("程序结束")
     logger.info("="*60)
 
-# 快速测试函数 - 可以直接调用
 def quick_test():
-    """快速测试 - 直接运行这个函数来测试单个文件"""
-    # 设置日志级别为DEBUG以获取更详细的信息
+    """快速测试单个文件"""
     logger.setLevel(logging.DEBUG)
     
-    test_file = 'E:\\github\\TAIDI_B\\processed\\财务报告\\reports-上交所\\600080_20230428_MMWM.md'
+    test_file = Path().cwd().parent / 'processed' / '财务报告' / 'reports-上交所' / '600080_20230428_FQ2V.md'
     
     logger.info("快速测试开始")
     logger.info(f"测试文件: {test_file}")
@@ -628,69 +666,20 @@ def quick_test():
         return
     
     try:
-        # 准备模板和默认数据
-        prompt_template = get_prompt()
-        default_data = GetDefaultTableData()
+        result = process_single_file(test_file)
         
-        # 处理单个文件
-        result = process_single_file(test_file, prompt_template, default_data)
-        
-        if result and result["success"]:
+        if result and result.get("success"):
             logger.info("✅ 测试成功!")
-            logger.info(f"输出文件: {result['output_file']}")
+            logger.info(f"输出文件: {result.get('output_file')}")
             
-            # 验证输出文件
-            with open(result['output_file'], 'r', encoding='utf-8') as f:
-                output_data = json.load(f)
-                logger.info(f"JSON验证成功，包含 {len(output_data)} 个顶级字段")
+            if result.get('output_file') and os.path.exists(result['output_file']):
+                with open(result['output_file'], 'r', encoding='utf-8') as f:
+                    output_data = json.load(f)
+                    logger.info(f"JSON验证成功，包含 {len(output_data)} 个顶级字段")
         else:
-            logger.error("❌ 测试失败!")
-            
+            logger.error(f"❌ 测试失败! 错误: {result.get('error') if result else '未知错误'}")
     except Exception as e:
         logger.error(f"测试异常: {e}", exc_info=True)
 
-def main():
-    logger.info("="*60)
-    logger.info("程序启动")
-    logger.info("="*60)
-    
-    try:
-        # 获取所有markdown文件
-        reports_path = Path.cwd().parent / "processed" / "财务报告"
-        logger.info(f"扫描目录: {reports_path}")
-        
-        all_files = getAllMarkdownFiles(reports_path)
-        logger.info(f"找到 {len(all_files)} 个markdown文件")
-        
-        if not all_files:
-            logger.warning("没有找到markdown文件")
-            exit(0)
-        
-        # 可以选择处理所有文件或只处理一部分进行测试
-        # 处理所有文件
-        files_to_process = all_files
-        
-        # 或者只处理前N个文件进行测试
-        # test_count = 5
-        # files_to_process = all_files[:test_count]
-        # logger.info(f"测试模式：只处理前 {test_count} 个文件")
-        
-        logger.info(f"开始多线程处理，线程数: {MAX_WORKERS}")
-        
-        # 多线程处理
-        results = process_files_multithread(files_to_process, max_workers=MAX_WORKERS)
-        
-        # 保存总结报告
-        save_summary_report(results)
-        
-        logger.info("所有文件处理完成！")
-        
-    except Exception as e:
-        logger.error(f"程序运行出错: {e}", exc_info=True)
-    
-    logger.info("="*60)
-    logger.info("程序结束")
-    logger.info("="*60)
 if __name__ == "__main__":
-    quick_test()
-    # main()
+    main()

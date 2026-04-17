@@ -1,0 +1,35 @@
+2026-04-17 00:54:07 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 600566_20250823_5NM8.md JSON解析失败
+2026-04-17 01:01:58 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 600479_20250429_E43F.md JSON解析失败
+2026-04-17 01:10:45 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 600993_20240824_14JI.md JSON解析失败
+2026-04-17 01:20:20 - FinancialExtractor - ERROR - extracted_all_data.py:211 - 修复JSON失败: Request timed out.
+2026-04-17 01:22:44 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 600252_20230428_VZDI.md JSON解析失败
+2026-04-17 01:26:23 - FinancialExtractor - ERROR - extracted_all_data.py:211 - 修复JSON失败: Request timed out.
+2026-04-17 01:26:23 - FinancialExtractor - ERROR - extracted_all_data.py:216 - JSON修复失败
+2026-04-17 01:38:47 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 600566_20230814_V9HM.md JSON解析失败
+2026-04-17 01:39:35 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 603439_20240427_TPCJ.md JSON解析失败
+2026-04-17 01:53:59 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 603896_20240828_F03W.md JSON解析失败
+2026-04-17 02:29:22 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 600671_20240427_J35J.md JSON解析失败
+2026-04-17 02:29:34 - FinancialExtractor - ERROR - extracted_all_data.py:216 - JSON修复失败
+2026-04-17 03:13:05 - FinancialExtractor - ERROR - extracted_all_data.py:216 - JSON修复失败
+2026-04-17 03:32:25 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 华森制药：2025年一季度报告.md JSON解析失败
+2026-04-17 03:35:16 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 沃华医药：2023年半年度报告摘要.md JSON解析失败
+2026-04-17 03:40:27 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 东阿阿胶：2024年一季度报告.md JSON解析失败
+2026-04-17 03:46:53 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 香雪制药：2023年半年度报告.md JSON解析失败
+2026-04-17 03:49:22 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 振东制药：2024年年度报告摘要.md JSON解析失败
+2026-04-17 03:53:25 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 康泰医学：2024年半年度报告.md JSON解析失败
+2026-04-17 04:17:15 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 启迪药业：2023年半年度报告摘要.md JSON解析失败
+2026-04-17 04:32:50 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 桂林三金：2024年年度报告摘要.md JSON解析失败
+2026-04-17 04:43:13 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 华神科技：2024年年度报告摘要.md JSON解析失败
+2026-04-17 04:46:57 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 新里程：2024年三季度报告.md JSON解析失败
+2026-04-17 05:07:06 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 九 芝 堂：2022年年度报告.md JSON解析失败
+2026-04-17 05:10:22 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 桂林三金：2025年半年度报告.md JSON解析失败
+2026-04-17 05:23:33 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 九 芝 堂：2024年一季度报告.md JSON解析失败
+2026-04-17 05:46:22 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 众生药业：2024年年度报告.md JSON解析失败
+2026-04-17 05:57:28 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 众生药业：2023年年度报告.md JSON解析失败
+2026-04-17 06:03:27 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 华神科技：2023年年度报告摘要.md JSON解析失败
+2026-04-17 06:05:46 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 信邦制药：2023年半年度报告摘要.md JSON解析失败
+2026-04-17 06:06:15 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 启迪药业：2025年一季度报告.md JSON解析失败
+2026-04-17 06:07:56 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 东阿阿胶：2025年半年度报告摘要.md JSON解析失败
+2026-04-17 06:12:58 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 华森制药：2023年半年度报告摘要.md JSON解析失败
+2026-04-17 06:13:09 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 沃华医药：2022年年度报告.md JSON解析失败
+2026-04-17 06:13:50 - FinancialExtractor - ERROR - extracted_all_data.py:327 - 文件 华森制药：2023年半年度报告摘要.md JSON解析失败

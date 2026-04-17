@@ -187,3 +187,1388 @@ openai.APITimeoutError: Request timed out.
 2026-04-16 17:14:39 - FinancialExtractor - INFO - extracted_all_data.py:183 - 调用大模型处理文件: 600080_20230428_MMWM.md, prompt长度: 22590
 2026-04-16 17:20:41 - FinancialExtractor - ERROR - extracted_all_data.py:226 - 文件 600080_20230428_MMWM.md - 调用失败 (尝试 1/3): Request timed out.
 2026-04-16 17:26:44 - FinancialExtractor - ERROR - extracted_all_data.py:226 - 文件 600080_20230428_MMWM.md - 调用失败 (尝试 2/3): Request timed out.
+2026-04-16 21:21:56 - FinancialExtractor - INFO - extracted_all_data.py:449 - 快速测试开始
+2026-04-16 21:21:56 - FinancialExtractor - INFO - extracted_all_data.py:450 - 测试文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_FQ2V.md
+2026-04-16 21:21:56 - FinancialExtractor - INFO - extracted_all_data.py:313 - 开始处理文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_FQ2V.md
+2026-04-16 21:21:56 - FinancialExtractor - INFO - extracted_all_data.py:292 - 开始分割和合并段落，原始段落数: 21
+2026-04-16 21:21:56 - FinancialExtractor - INFO - extracted_all_data.py:308 - 段落分割完成，生成 1 个块
+2026-04-16 21:21:56 - FinancialExtractor - INFO - extracted_all_data.py:326 - 处理文件 600080_20230428_FQ2V.md 的第 1/1 个块
+2026-04-16 21:21:56 - FinancialExtractor - INFO - extracted_all_data.py:204 - 调用大模型处理文件: 600080_20230428_FQ2V.md, prompt长度: 13753
+2026-04-16 21:22:38 - FinancialExtractor - INFO - extracted_all_data.py:449 - 快速测试开始
+2026-04-16 21:22:38 - FinancialExtractor - INFO - extracted_all_data.py:450 - 测试文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_FQ2V.md
+2026-04-16 21:22:38 - FinancialExtractor - INFO - extracted_all_data.py:313 - 开始处理文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_FQ2V.md
+2026-04-16 21:22:38 - FinancialExtractor - INFO - extracted_all_data.py:292 - 开始分割和合并段落，原始段落数: 21
+2026-04-16 21:22:38 - FinancialExtractor - INFO - extracted_all_data.py:308 - 段落分割完成，生成 1 个块
+2026-04-16 21:22:38 - FinancialExtractor - INFO - extracted_all_data.py:326 - 处理文件 600080_20230428_FQ2V.md 的第 1/1 个块
+2026-04-16 21:22:38 - FinancialExtractor - INFO - extracted_all_data.py:204 - 调用大模型处理文件: 600080_20230428_FQ2V.md, prompt长度: 13753
+2026-04-16 21:25:02 - FinancialExtractor - INFO - extracted_all_data.py:449 - 快速测试开始
+2026-04-16 21:25:02 - FinancialExtractor - INFO - extracted_all_data.py:450 - 测试文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_MMWM.md
+2026-04-16 21:25:02 - FinancialExtractor - INFO - extracted_all_data.py:313 - 开始处理文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_MMWM.md
+2026-04-16 21:25:02 - FinancialExtractor - INFO - extracted_all_data.py:292 - 开始分割和合并段落，原始段落数: 548
+2026-04-16 21:25:02 - FinancialExtractor - INFO - extracted_all_data.py:308 - 段落分割完成，生成 3 个块
+2026-04-16 21:25:02 - FinancialExtractor - INFO - extracted_all_data.py:326 - 处理文件 600080_20230428_MMWM.md 的第 1/3 个块
+2026-04-16 21:25:02 - FinancialExtractor - INFO - extracted_all_data.py:204 - 调用大模型处理文件: 600080_20230428_MMWM.md, prompt长度: 108942
+2026-04-16 21:26:40 - FinancialExtractor - INFO - extracted_all_data.py:248 - 文件 600080_20230428_MMWM.md 数据提取成功
+2026-04-16 21:26:40 - FinancialExtractor - INFO - extracted_all_data.py:326 - 处理文件 600080_20230428_MMWM.md 的第 2/3 个块
+2026-04-16 21:26:40 - FinancialExtractor - INFO - extracted_all_data.py:204 - 调用大模型处理文件: 600080_20230428_MMWM.md, prompt长度: 108990
+2026-04-16 21:27:55 - FinancialExtractor - INFO - extracted_all_data.py:248 - 文件 600080_20230428_MMWM.md 数据提取成功
+2026-04-16 21:27:55 - FinancialExtractor - INFO - extracted_all_data.py:326 - 处理文件 600080_20230428_MMWM.md 的第 3/3 个块
+2026-04-16 21:27:55 - FinancialExtractor - INFO - extracted_all_data.py:204 - 调用大模型处理文件: 600080_20230428_MMWM.md, prompt长度: 44648
+2026-04-16 21:29:06 - FinancialExtractor - INFO - extracted_all_data.py:248 - 文件 600080_20230428_MMWM.md 数据提取成功
+2026-04-16 21:29:06 - FinancialExtractor - INFO - extracted_all_data.py:356 - 文件 600080_20230428_MMWM.md 处理完成，耗时: 244.28秒
+2026-04-16 21:29:06 - FinancialExtractor - INFO - extracted_all_data.py:460 - ✅ 测试成功!
+2026-04-16 21:29:06 - FinancialExtractor - INFO - extracted_all_data.py:461 - 输出文件: output\600080_20230428_MMWM_extracted.json
+2026-04-16 21:29:06 - FinancialExtractor - INFO - extracted_all_data.py:465 - JSON验证成功，包含 5 个顶级字段
+2026-04-16 21:37:28 - FinancialExtractor - INFO - extracted_all_data.py:449 - 快速测试开始
+2026-04-16 21:37:28 - FinancialExtractor - INFO - extracted_all_data.py:450 - 测试文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_FQ2V.md
+2026-04-16 21:37:28 - FinancialExtractor - INFO - extracted_all_data.py:313 - 开始处理文件: E:\github\TAIDI_B\processed\财务报告\reports-上交所\600080_20230428_FQ2V.md
+2026-04-16 21:37:28 - FinancialExtractor - INFO - extracted_all_data.py:292 - 开始分割和合并段落，原始段落数: 21
+2026-04-16 21:37:28 - FinancialExtractor - INFO - extracted_all_data.py:308 - 段落分割完成，生成 1 个块
+2026-04-16 21:37:28 - FinancialExtractor - INFO - extracted_all_data.py:326 - 处理文件 600080_20230428_FQ2V.md 的第 1/1 个块
+2026-04-16 21:37:28 - FinancialExtractor - INFO - extracted_all_data.py:204 - 调用大模型处理文件: 600080_20230428_FQ2V.md, prompt长度: 13753
+2026-04-16 21:39:10 - FinancialExtractor - INFO - extracted_all_data.py:248 - 文件 600080_20230428_FQ2V.md 数据提取成功
+2026-04-16 21:39:10 - FinancialExtractor - INFO - extracted_all_data.py:356 - 文件 600080_20230428_FQ2V.md 处理完成，耗时: 102.18秒
+2026-04-16 21:39:10 - FinancialExtractor - INFO - extracted_all_data.py:460 - ✅ 测试成功!
+2026-04-16 21:39:10 - FinancialExtractor - INFO - extracted_all_data.py:461 - 输出文件: output\600080_20230428_FQ2V.json
+2026-04-16 21:39:10 - FinancialExtractor - INFO - extracted_all_data.py:465 - JSON验证成功，包含 5 个顶级字段
+2026-04-16 22:50:31 - FinancialExtractor - INFO - extracted_all_data.py:526 - ============================================================
+2026-04-16 22:50:31 - FinancialExtractor - INFO - extracted_all_data.py:527 - 程序启动
+2026-04-16 22:50:31 - FinancialExtractor - INFO - extracted_all_data.py:528 - ============================================================
+2026-04-16 22:50:31 - FinancialExtractor - INFO - extracted_all_data.py:532 - 扫描目录: E:\github\TAIDI_B\processed\财务报告
+2026-04-16 22:50:31 - FinancialExtractor - INFO - extracted_all_data.py:103 - 已处理文件数: 2
+2026-04-16 22:50:31 - FinancialExtractor - INFO - extracted_all_data.py:112 - 扫描完成:
+2026-04-16 22:50:31 - FinancialExtractor - INFO - extracted_all_data.py:113 -   - 总Markdown文件: 1252
+2026-04-16 22:50:31 - FinancialExtractor - INFO - extracted_all_data.py:114 -   - 已处理文件: 2
+2026-04-16 22:50:31 - FinancialExtractor - INFO - extracted_all_data.py:115 -   - 待处理文件: 1250
+2026-04-16 22:50:31 - FinancialExtractor - INFO - extracted_all_data.py:120 - 跳过的文件: ['600080_20230428_FQ2V.md', '600080_20230428_MMWM.md']
+2026-04-16 22:50:55 - FinancialExtractor - INFO - extracted_all_data.py:526 - ============================================================
+2026-04-16 22:50:55 - FinancialExtractor - INFO - extracted_all_data.py:527 - 程序启动
+2026-04-16 22:50:55 - FinancialExtractor - INFO - extracted_all_data.py:528 - ============================================================
+2026-04-16 22:50:55 - FinancialExtractor - INFO - extracted_all_data.py:532 - 扫描目录: E:\github\TAIDI_B\processed\财务报告
+2026-04-16 22:50:55 - FinancialExtractor - INFO - extracted_all_data.py:103 - 已处理文件数: 2
+2026-04-16 22:50:55 - FinancialExtractor - INFO - extracted_all_data.py:112 - 扫描完成:
+2026-04-16 22:50:55 - FinancialExtractor - INFO - extracted_all_data.py:113 -   - 总Markdown文件: 1252
+2026-04-16 22:50:55 - FinancialExtractor - INFO - extracted_all_data.py:114 -   - 已处理文件: 2
+2026-04-16 22:50:55 - FinancialExtractor - INFO - extracted_all_data.py:115 -   - 待处理文件: 1250
+2026-04-16 22:50:55 - FinancialExtractor - INFO - extracted_all_data.py:120 - 跳过的文件: ['600080_20230428_FQ2V.md', '600080_20230428_MMWM.md']
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:526 - ============================================================
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:527 - 程序启动
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:528 - ============================================================
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:532 - 扫描目录: /home/ubuntu/TAIDI_B/processed/财务报告
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:103 - 已处理文件数: 2
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:112 - 扫描完成:
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:113 -   - 总Markdown文件: 1252
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:114 -   - 已处理文件: 2
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:115 -   - 待处理文件: 1250
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:120 - 跳过的文件: ['600080_20230428_MMWM.md', '600080_20230428_FQ2V.md']
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:534 - 找到 1250 个markdown文件
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:439 - ============================================================
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:440 - 开始多线程处理 1250 个文件，线程数: 10
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:441 - ============================================================
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603998_20250829_ZC3F.md
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603896_20240426_KVY9.md
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600222_20250827_MDA8.md
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 484
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600080_20230819_DNUE.md
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 658
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603139_20250827_35OE.md
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 7
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600329_20230815_EQM0.md
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 376
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603139_20230831_LD4W.md
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603567_20240827_51YQ.md
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603858_20240426_LSCD.md
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603998_20250829_ZC3F.md 的第 1/3 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 13
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600422_20250816_X5KJ.md
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603896_20240426_KVY9.md 的第 1/3 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 6
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603998_20250829_ZC3F.md, prompt长度: 108630
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 540
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 390
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 477
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600080_20230819_DNUE.md 的第 1/1 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603896_20240426_KVY9.md, prompt长度: 108259
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 26
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600222_20250827_MDA8.md 的第 1/3 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 2 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20250827_35OE.md 的第 1/1 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600080_20230819_DNUE.md, prompt长度: 6685
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600222_20250827_MDA8.md, prompt长度: 107645
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600329_20230815_EQM0.md 的第 1/1 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20250827_35OE.md, prompt长度: 7337
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20230831_LD4W.md 的第 1/2 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603567_20240827_51YQ.md 的第 1/3 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600422_20250816_X5KJ.md 的第 1/3 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600329_20230815_EQM0.md, prompt长度: 6931
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603858_20240426_LSCD.md 的第 1/1 个块
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20230831_LD4W.md, prompt长度: 108528
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603567_20240827_51YQ.md, prompt长度: 108794
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600422_20250816_X5KJ.md, prompt长度: 108656
+2026-04-16 23:30:03 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603858_20240426_LSCD.md, prompt长度: 16620
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:526 - ============================================================
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:527 - 程序启动
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:528 - ============================================================
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:532 - 扫描目录: /home/ubuntu/TAIDI_B/processed/财务报告
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:103 - 已处理文件数: 2
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:112 - 扫描完成:
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:113 -   - 总Markdown文件: 1252
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:114 -   - 已处理文件: 2
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:115 -   - 待处理文件: 1250
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:120 - 跳过的文件: ['600080_20230428_MMWM.md', '600080_20230428_FQ2V.md']
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:534 - 找到 1250 个markdown文件
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:439 - ============================================================
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:440 - 开始多线程处理 1250 个文件，线程数: 10
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:441 - ============================================================
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603998_20250829_ZC3F.md
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603896_20240426_KVY9.md
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600222_20250827_MDA8.md
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 484
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600080_20230819_DNUE.md
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 658
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 376
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 7
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603139_20250827_35OE.md
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600329_20230815_EQM0.md
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603998_20250829_ZC3F.md 的第 1/3 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603139_20230831_LD4W.md
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603567_20240827_51YQ.md
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603858_20240426_LSCD.md
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603896_20240426_KVY9.md 的第 1/3 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600422_20250816_X5KJ.md
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 13
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603998_20250829_ZC3F.md, prompt长度: 108630
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 6
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 390
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600080_20230819_DNUE.md 的第 1/1 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600222_20250827_MDA8.md 的第 1/3 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603896_20240426_KVY9.md, prompt长度: 108259
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 26
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 540
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 477
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 2 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600080_20230819_DNUE.md, prompt长度: 6685
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600222_20250827_MDA8.md, prompt长度: 107645
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20250827_35OE.md 的第 1/1 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600329_20230815_EQM0.md 的第 1/1 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20230831_LD4W.md 的第 1/2 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20250827_35OE.md, prompt长度: 7337
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603567_20240827_51YQ.md 的第 1/3 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600329_20230815_EQM0.md, prompt长度: 6931
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603858_20240426_LSCD.md 的第 1/1 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600422_20250816_X5KJ.md 的第 1/3 个块
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20230831_LD4W.md, prompt长度: 108528
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603567_20240827_51YQ.md, prompt长度: 108794
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603858_20240426_LSCD.md, prompt长度: 16620
+2026-04-16 23:31:01 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600422_20250816_X5KJ.md, prompt长度: 108656
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:526 - ============================================================
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:527 - 程序启动
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:528 - ============================================================
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:532 - 扫描目录: /home/ubuntu/TAIDI_B/processed/财务报告
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:103 - 已处理文件数: 2
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:112 - 扫描完成:
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:113 -   - 总Markdown文件: 1252
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:114 -   - 已处理文件: 2
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:115 -   - 待处理文件: 1250
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:120 - 跳过的文件: ['600080_20230428_MMWM.md', '600080_20230428_FQ2V.md']
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:534 - 找到 1250 个markdown文件
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:439 - ============================================================
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:440 - 开始多线程处理 1250 个文件，线程数: 10
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:441 - ============================================================
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603998_20250829_ZC3F.md
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603896_20240426_KVY9.md
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600222_20250827_MDA8.md
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600080_20230819_DNUE.md
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603139_20250827_35OE.md
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 658
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 484
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 376
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600329_20230815_EQM0.md
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 13
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 7
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603139_20230831_LD4W.md
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603567_20240827_51YQ.md
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603858_20240426_LSCD.md
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600422_20250816_X5KJ.md
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 6
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603896_20240426_KVY9.md 的第 1/3 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603998_20250829_ZC3F.md 的第 1/3 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 390
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600222_20250827_MDA8.md 的第 1/3 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20250827_35OE.md 的第 1/1 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 540
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 477
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 26
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603896_20240426_KVY9.md, prompt长度: 108259
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600080_20230819_DNUE.md 的第 1/1 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603998_20250829_ZC3F.md, prompt长度: 108630
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 2 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600222_20250827_MDA8.md, prompt长度: 107645
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20250827_35OE.md, prompt长度: 7337
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600329_20230815_EQM0.md 的第 1/1 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600080_20230819_DNUE.md, prompt长度: 6685
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20230831_LD4W.md 的第 1/2 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600329_20230815_EQM0.md, prompt长度: 6931
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603567_20240827_51YQ.md 的第 1/3 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600422_20250816_X5KJ.md 的第 1/3 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603858_20240426_LSCD.md 的第 1/1 个块
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20230831_LD4W.md, prompt长度: 108528
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603567_20240827_51YQ.md, prompt长度: 108794
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600422_20250816_X5KJ.md, prompt长度: 108656
+2026-04-16 23:34:49 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603858_20240426_LSCD.md, prompt长度: 16620
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:526 - ============================================================
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:527 - 程序启动
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:528 - ============================================================
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:532 - 扫描目录: /home/ubuntu/TAIDI_B/processed/财务报告
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:103 - 已处理文件数: 2
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:112 - 扫描完成:
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:113 -   - 总Markdown文件: 1252
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:114 -   - 已处理文件: 2
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:115 -   - 待处理文件: 1250
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:120 - 跳过的文件: ['600080_20230428_MMWM.md', '600080_20230428_FQ2V.md']
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:534 - 找到 1250 个markdown文件
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:439 - ============================================================
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:440 - 开始多线程处理 1250 个文件，线程数: 10
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:441 - ============================================================
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603998_20250829_ZC3F.md
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603896_20240426_KVY9.md
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600222_20250827_MDA8.md
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600080_20230819_DNUE.md
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 484
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 376
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 658
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 7
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603139_20250827_35OE.md
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600329_20230815_EQM0.md
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603139_20230831_LD4W.md
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603998_20250829_ZC3F.md 的第 1/3 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600222_20250827_MDA8.md 的第 1/3 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 13
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603567_20240827_51YQ.md
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603858_20240426_LSCD.md
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603998_20250829_ZC3F.md, prompt长度: 108630
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600422_20250816_X5KJ.md
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 390
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 6
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600080_20230819_DNUE.md 的第 1/1 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603896_20240426_KVY9.md 的第 1/3 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600222_20250827_MDA8.md, prompt长度: 107645
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 26
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 540
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 2 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 477
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600080_20230819_DNUE.md, prompt长度: 6685
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603896_20240426_KVY9.md, prompt长度: 108259
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20250827_35OE.md 的第 1/1 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20230831_LD4W.md 的第 1/2 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600329_20230815_EQM0.md 的第 1/1 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603858_20240426_LSCD.md 的第 1/1 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20250827_35OE.md, prompt长度: 7337
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603567_20240827_51YQ.md 的第 1/3 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20230831_LD4W.md, prompt长度: 108528
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600422_20250816_X5KJ.md 的第 1/3 个块
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600329_20230815_EQM0.md, prompt长度: 6931
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603858_20240426_LSCD.md, prompt长度: 16620
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603567_20240827_51YQ.md, prompt长度: 108794
+2026-04-16 23:38:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600422_20250816_X5KJ.md, prompt长度: 108656
+2026-04-16 23:39:11 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603858_20240426_LSCD.md 数据提取成功
+2026-04-16 23:39:11 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603858_20240426_LSCD.md 处理完成，耗时: 48.29秒
+2026-04-16 23:39:11 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600750_20250426_5Q3Q.md
+2026-04-16 23:39:11 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [1/1250] 成功 - 603858_20240426_LSCD.md
+2026-04-16 23:39:11 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 13
+2026-04-16 23:39:11 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:39:11 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600750_20250426_5Q3Q.md 的第 1/1 个块
+2026-04-16 23:39:11 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600750_20250426_5Q3Q.md, prompt长度: 21751
+2026-04-16 23:39:29 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603896_20240426_KVY9.md 数据提取成功
+2026-04-16 23:39:29 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603896_20240426_KVY9.md 的第 2/3 个块
+2026-04-16 23:39:29 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603896_20240426_KVY9.md, prompt长度: 108248
+2026-04-16 23:39:41 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603139_20230831_LD4W.md 数据提取成功
+2026-04-16 23:39:41 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20230831_LD4W.md 的第 2/2 个块
+2026-04-16 23:39:41 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20230831_LD4W.md, prompt长度: 85339
+2026-04-16 23:39:42 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600080_20230819_DNUE.md 数据提取成功
+2026-04-16 23:39:42 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600080_20230819_DNUE.md 处理完成，耗时: 79.10秒
+2026-04-16 23:39:42 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603567_20250430_YIVD.md
+2026-04-16 23:39:42 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [2/1250] 成功 - 600080_20230819_DNUE.md
+2026-04-16 23:39:42 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 728
+2026-04-16 23:39:42 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 4 个块
+2026-04-16 23:39:42 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603567_20250430_YIVD.md 的第 1/4 个块
+2026-04-16 23:39:42 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603567_20250430_YIVD.md, prompt长度: 105596
+2026-04-16 23:39:44 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603998_20250829_ZC3F.md 数据提取成功
+2026-04-16 23:39:44 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603998_20250829_ZC3F.md 的第 2/3 个块
+2026-04-16 23:39:44 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603998_20250829_ZC3F.md, prompt长度: 108215
+2026-04-16 23:39:45 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603139_20250827_35OE.md 数据提取成功
+2026-04-16 23:39:45 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603139_20250827_35OE.md 处理完成，耗时: 82.55秒
+2026-04-16 23:39:45 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600613_20240831_SWHB.md
+2026-04-16 23:39:45 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [3/1250] 成功 - 603139_20250827_35OE.md
+2026-04-16 23:39:45 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 407
+2026-04-16 23:39:45 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 2 个块
+2026-04-16 23:39:45 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600613_20240831_SWHB.md 的第 1/2 个块
+2026-04-16 23:39:45 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600613_20240831_SWHB.md, prompt长度: 108926
+2026-04-16 23:39:48 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600422_20250816_X5KJ.md 数据提取成功
+2026-04-16 23:39:48 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600422_20250816_X5KJ.md 的第 2/3 个块
+2026-04-16 23:39:48 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600422_20250816_X5KJ.md, prompt长度: 108689
+2026-04-16 23:39:49 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600329_20230815_EQM0.md 数据提取成功
+2026-04-16 23:39:49 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600329_20230815_EQM0.md 处理完成，耗时: 85.69秒
+2026-04-16 23:39:49 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600422_20230830_QQL2.md
+2026-04-16 23:39:49 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [4/1250] 成功 - 600329_20230815_EQM0.md
+2026-04-16 23:39:49 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 12
+2026-04-16 23:39:49 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:39:49 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600422_20230830_QQL2.md 的第 1/1 个块
+2026-04-16 23:39:49 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600422_20230830_QQL2.md, prompt长度: 12117
+2026-04-16 23:40:12 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603567_20240827_51YQ.md 数据提取成功
+2026-04-16 23:40:12 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603567_20240827_51YQ.md 的第 2/3 个块
+2026-04-16 23:40:12 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603567_20240827_51YQ.md, prompt长度: 108333
+2026-04-16 23:40:41 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603139_20230831_LD4W.md 数据提取成功
+2026-04-16 23:40:41 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603139_20230831_LD4W.md 处理完成，耗时: 138.61秒
+2026-04-16 23:40:41 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600557_20231026_4BGJ.md
+2026-04-16 23:40:41 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [5/1250] 成功 - 603139_20230831_LD4W.md
+2026-04-16 23:40:41 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 5/1250, 成功: 10, 失败: 0
+2026-04-16 23:40:41 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 16
+2026-04-16 23:40:41 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:40:41 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600557_20231026_4BGJ.md 的第 1/1 个块
+2026-04-16 23:40:41 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600557_20231026_4BGJ.md, prompt长度: 20061
+2026-04-16 23:40:55 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600750_20250426_5Q3Q.md 数据提取成功
+2026-04-16 23:40:55 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600750_20250426_5Q3Q.md 处理完成，耗时: 103.73秒
+2026-04-16 23:40:55 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600479_20240412_VPZ8.md
+2026-04-16 23:40:55 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [6/1250] 成功 - 600750_20250426_5Q3Q.md
+2026-04-16 23:40:55 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 553
+2026-04-16 23:40:55 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:40:55 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600479_20240412_VPZ8.md 的第 1/3 个块
+2026-04-16 23:40:55 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600479_20240412_VPZ8.md, prompt长度: 107115
+2026-04-16 23:41:04 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600613_20240831_SWHB.md 数据提取成功
+2026-04-16 23:41:04 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600613_20240831_SWHB.md 的第 2/2 个块
+2026-04-16 23:41:04 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600613_20240831_SWHB.md, prompt长度: 78488
+2026-04-16 23:41:11 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600422_20230830_QQL2.md 数据提取成功
+2026-04-16 23:41:11 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600422_20230830_QQL2.md 处理完成，耗时: 82.37秒
+2026-04-16 23:41:11 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600080_20251030_IVCB.md
+2026-04-16 23:41:11 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [7/1250] 成功 - 600422_20230830_QQL2.md
+2026-04-16 23:41:11 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 23
+2026-04-16 23:41:11 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:41:11 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600080_20251030_IVCB.md 的第 1/1 个块
+2026-04-16 23:41:11 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600080_20251030_IVCB.md, prompt长度: 17868
+2026-04-16 23:41:14 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600422_20250816_X5KJ.md 数据提取成功
+2026-04-16 23:41:14 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600422_20250816_X5KJ.md 的第 3/3 个块
+2026-04-16 23:41:14 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600422_20250816_X5KJ.md, prompt长度: 45333
+2026-04-16 23:41:19 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603998_20250829_ZC3F.md 数据提取成功
+2026-04-16 23:41:19 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603998_20250829_ZC3F.md 的第 3/3 个块
+2026-04-16 23:41:19 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603998_20250829_ZC3F.md, prompt长度: 34436
+2026-04-16 23:41:22 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603567_20250430_YIVD.md 数据提取成功
+2026-04-16 23:41:22 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603567_20250430_YIVD.md 的第 2/4 个块
+2026-04-16 23:41:22 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603567_20250430_YIVD.md, prompt长度: 108537
+2026-04-16 23:42:02 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603567_20240827_51YQ.md 数据提取成功
+2026-04-16 23:42:02 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603567_20240827_51YQ.md 的第 3/3 个块
+2026-04-16 23:42:02 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603567_20240827_51YQ.md, prompt长度: 37589
+2026-04-16 23:42:09 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600479_20240412_VPZ8.md 数据提取成功
+2026-04-16 23:42:09 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600479_20240412_VPZ8.md 的第 2/3 个块
+2026-04-16 23:42:09 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600479_20240412_VPZ8.md, prompt长度: 108524
+2026-04-16 23:42:10 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600613_20240831_SWHB.md 数据提取成功
+2026-04-16 23:42:10 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600613_20240831_SWHB.md 处理完成，耗时: 145.10秒
+2026-04-16 23:42:10 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600566_20250823_5NM8.md
+2026-04-16 23:42:10 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [8/1250] 成功 - 600613_20240831_SWHB.md
+2026-04-16 23:42:10 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 8
+2026-04-16 23:42:10 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:42:10 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600566_20250823_5NM8.md 的第 1/1 个块
+2026-04-16 23:42:10 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600566_20250823_5NM8.md, prompt长度: 7183
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600080_20251030_IVCB.md 数据提取成功
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600080_20251030_IVCB.md 处理完成，耗时: 71.65秒
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600479_20250429_L609.md
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [9/1250] 成功 - 600080_20251030_IVCB.md
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 13
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600479_20250429_L609.md 的第 1/1 个块
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600479_20250429_L609.md, prompt长度: 18249
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600557_20231026_4BGJ.md 数据提取成功
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600557_20231026_4BGJ.md 处理完成，耗时: 101.29秒
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603139_20240830_1JDB.md
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [10/1250] 成功 - 600557_20231026_4BGJ.md
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 440
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 10/1250, 成功: 20, 失败: 0
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 2 个块
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20240830_1JDB.md 的第 1/2 个块
+2026-04-16 23:42:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20240830_1JDB.md, prompt长度: 108074
+2026-04-16 23:42:47 - FinancialExtractor - WARNING - extracted_all_data.py:276 - JSON括号不匹配，尝试修复...
+2026-04-16 23:42:47 - FinancialExtractor - INFO - extracted_all_data.py:147 - 尝试修复不完整的JSON，长度: 7993
+2026-04-16 23:43:03 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603567_20250430_YIVD.md 数据提取成功
+2026-04-16 23:43:03 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603567_20250430_YIVD.md 的第 3/4 个块
+2026-04-16 23:43:03 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603567_20250430_YIVD.md, prompt长度: 110463
+2026-04-16 23:43:14 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600479_20240412_VPZ8.md 数据提取成功
+2026-04-16 23:43:14 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600479_20240412_VPZ8.md 的第 3/3 个块
+2026-04-16 23:43:14 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600479_20240412_VPZ8.md, prompt长度: 60032
+2026-04-16 23:43:31 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600566_20250823_5NM8.md 数据提取成功
+2026-04-16 23:43:31 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600566_20250823_5NM8.md 处理完成，耗时: 81.02秒
+2026-04-16 23:43:31 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600285_20230426_0A88.md
+2026-04-16 23:43:31 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [11/1250] 成功 - 600566_20250823_5NM8.md
+2026-04-16 23:43:31 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 12
+2026-04-16 23:43:31 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:43:31 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600285_20230426_0A88.md 的第 1/1 个块
+2026-04-16 23:43:31 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600285_20230426_0A88.md, prompt长度: 18235
+2026-04-16 23:43:34 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600222_20250827_MDA8.md 数据提取成功
+2026-04-16 23:43:34 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600222_20250827_MDA8.md 的第 2/3 个块
+2026-04-16 23:43:34 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600222_20250827_MDA8.md, prompt长度: 107572
+2026-04-16 23:44:03 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603139_20240830_1JDB.md 数据提取成功
+2026-04-16 23:44:03 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20240830_1JDB.md 的第 2/2 个块
+2026-04-16 23:44:03 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20240830_1JDB.md, prompt长度: 97684
+2026-04-16 23:44:11 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600479_20250429_L609.md 数据提取成功
+2026-04-16 23:44:11 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600479_20250429_L609.md 处理完成，耗时: 108.10秒
+2026-04-16 23:44:11 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600129_20230331_LJR3.md
+2026-04-16 23:44:11 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [12/1250] 成功 - 600479_20250429_L609.md
+2026-04-16 23:44:11 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 18
+2026-04-16 23:44:11 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:44:11 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600129_20230331_LJR3.md 的第 1/1 个块
+2026-04-16 23:44:11 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600129_20230331_LJR3.md, prompt长度: 11440
+2026-04-16 23:44:34 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600479_20240412_VPZ8.md 数据提取成功
+2026-04-16 23:44:34 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600479_20240412_VPZ8.md 处理完成，耗时: 219.47秒
+2026-04-16 23:44:34 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600535_20241026_77D8.md
+2026-04-16 23:44:34 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [13/1250] 成功 - 600479_20240412_VPZ8.md
+2026-04-16 23:44:34 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 21
+2026-04-16 23:44:34 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:44:34 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600535_20241026_77D8.md 的第 1/1 个块
+2026-04-16 23:44:34 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600535_20241026_77D8.md, prompt长度: 26899
+2026-04-16 23:44:44 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603567_20250430_YIVD.md 数据提取成功
+2026-04-16 23:44:44 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603567_20250430_YIVD.md 的第 4/4 个块
+2026-04-16 23:44:44 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603567_20250430_YIVD.md, prompt长度: 43074
+2026-04-16 23:45:04 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603998_20250829_ZC3F.md 数据提取成功
+2026-04-16 23:45:04 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603998_20250829_ZC3F.md 处理完成，耗时: 400.82秒
+2026-04-16 23:45:04 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600518_20231028_TL5J.md
+2026-04-16 23:45:04 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [14/1250] 成功 - 603998_20250829_ZC3F.md
+2026-04-16 23:45:04 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 18
+2026-04-16 23:45:04 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:45:04 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600518_20231028_TL5J.md 的第 1/1 个块
+2026-04-16 23:45:04 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600518_20231028_TL5J.md, prompt长度: 40140
+2026-04-16 23:45:07 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600129_20230331_LJR3.md 数据提取成功
+2026-04-16 23:45:07 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600129_20230331_LJR3.md 处理完成，耗时: 56.26秒
+2026-04-16 23:45:07 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603896_20231027_X3XU.md
+2026-04-16 23:45:07 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [15/1250] 成功 - 600129_20230331_LJR3.md
+2026-04-16 23:45:07 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 12
+2026-04-16 23:45:07 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 15/1250, 成功: 30, 失败: 0
+2026-04-16 23:45:07 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:45:07 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603896_20231027_X3XU.md 的第 1/1 个块
+2026-04-16 23:45:07 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603896_20231027_X3XU.md, prompt长度: 18381
+2026-04-16 23:45:11 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603896_20240426_KVY9.md 数据提取成功
+2026-04-16 23:45:11 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603896_20240426_KVY9.md 的第 3/3 个块
+2026-04-16 23:45:11 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603896_20240426_KVY9.md, prompt长度: 75982
+2026-04-16 23:45:11 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600285_20230426_0A88.md 数据提取成功
+2026-04-16 23:45:11 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600285_20230426_0A88.md 处理完成，耗时: 99.44秒
+2026-04-16 23:45:11 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600222_20250827_JM77.md
+2026-04-16 23:45:11 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [16/1250] 成功 - 600285_20230426_0A88.md
+2026-04-16 23:45:11 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 6
+2026-04-16 23:45:11 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:45:11 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600222_20250827_JM77.md 的第 1/1 个块
+2026-04-16 23:45:11 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600222_20250827_JM77.md, prompt长度: 7591
+2026-04-16 23:45:12 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600222_20250827_MDA8.md 数据提取成功
+2026-04-16 23:45:12 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600222_20250827_MDA8.md 的第 3/3 个块
+2026-04-16 23:45:12 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600222_20250827_MDA8.md, prompt长度: 19591
+2026-04-16 23:45:15 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603139_20240830_1JDB.md 数据提取成功
+2026-04-16 23:45:15 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603139_20240830_1JDB.md 处理完成，耗时: 171.87秒
+2026-04-16 23:45:15 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600085_20240831_ETW9.md
+2026-04-16 23:45:15 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [17/1250] 成功 - 603139_20240830_1JDB.md
+2026-04-16 23:45:15 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 6
+2026-04-16 23:45:15 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:45:15 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600085_20240831_ETW9.md 的第 1/1 个块
+2026-04-16 23:45:15 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600085_20240831_ETW9.md, prompt长度: 7827
+2026-04-16 23:46:09 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600535_20241026_77D8.md 数据提取成功
+2026-04-16 23:46:09 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600535_20241026_77D8.md 处理完成，耗时: 95.04秒
+2026-04-16 23:46:09 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600993_20230826_72D1.md
+2026-04-16 23:46:09 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [18/1250] 成功 - 600535_20241026_77D8.md
+2026-04-16 23:46:09 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 18
+2026-04-16 23:46:09 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:46:09 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600993_20230826_72D1.md 的第 1/1 个块
+2026-04-16 23:46:09 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600993_20230826_72D1.md, prompt长度: 8510
+2026-04-16 23:46:16 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600085_20240831_ETW9.md 数据提取成功
+2026-04-16 23:46:16 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600085_20240831_ETW9.md 处理完成，耗时: 60.97秒
+2026-04-16 23:46:16 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600671_20240830_4UMC.md
+2026-04-16 23:46:16 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [19/1250] 成功 - 600085_20240831_ETW9.md
+2026-04-16 23:46:16 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 437
+2026-04-16 23:46:16 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 2 个块
+2026-04-16 23:46:16 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600671_20240830_4UMC.md 的第 1/2 个块
+2026-04-16 23:46:16 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600671_20240830_4UMC.md, prompt长度: 108927
+2026-04-16 23:46:47 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603896_20231027_X3XU.md 数据提取成功
+2026-04-16 23:46:47 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603896_20231027_X3XU.md 处理完成，耗时: 100.09秒
+2026-04-16 23:46:47 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600566_20251028_ULDL.md
+2026-04-16 23:46:47 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [20/1250] 成功 - 603896_20231027_X3XU.md
+2026-04-16 23:46:47 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 20/1250, 成功: 40, 失败: 0
+2026-04-16 23:46:47 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 18
+2026-04-16 23:46:47 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:46:47 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600566_20251028_ULDL.md 的第 1/1 个块
+2026-04-16 23:46:47 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600566_20251028_ULDL.md, prompt长度: 18339
+2026-04-16 23:46:59 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600222_20250827_JM77.md 数据提取成功
+2026-04-16 23:46:59 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600222_20250827_JM77.md 处理完成，耗时: 107.58秒
+2026-04-16 23:46:59 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600557_20230713_LMYF.md
+2026-04-16 23:46:59 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [21/1250] 成功 - 600222_20250827_JM77.md
+2026-04-16 23:46:59 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 360
+2026-04-16 23:46:59 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 2 个块
+2026-04-16 23:46:59 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600557_20230713_LMYF.md 的第 1/2 个块
+2026-04-16 23:46:59 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600557_20230713_LMYF.md, prompt长度: 108875
+2026-04-16 23:47:11 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600993_20230826_72D1.md 数据提取成功
+2026-04-16 23:47:11 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600993_20230826_72D1.md 处理完成，耗时: 61.26秒
+2026-04-16 23:47:11 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600613_20240430_O08H.md
+2026-04-16 23:47:11 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [22/1250] 成功 - 600993_20230826_72D1.md
+2026-04-16 23:47:11 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 544
+2026-04-16 23:47:11 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:47:11 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600613_20240430_O08H.md 的第 1/3 个块
+2026-04-16 23:47:11 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600613_20240430_O08H.md, prompt长度: 108778
+2026-04-16 23:48:03 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600671_20240830_4UMC.md 数据提取成功
+2026-04-16 23:48:03 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600671_20240830_4UMC.md 的第 2/2 个块
+2026-04-16 23:48:03 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600671_20240830_4UMC.md, prompt长度: 96381
+2026-04-16 23:48:04 - FinancialExtractor - ERROR - extracted_all_data.py:308 - 文件 603567_20240827_51YQ.md - 调用失败 (尝试 1/3): Request timed out.
+2026-04-16 23:48:19 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600518_20231028_TL5J.md 数据提取成功
+2026-04-16 23:48:19 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600518_20231028_TL5J.md 处理完成，耗时: 195.39秒
+2026-04-16 23:48:19 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600572_20240824_YYR1.md
+2026-04-16 23:48:19 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [23/1250] 成功 - 600518_20231028_TL5J.md
+2026-04-16 23:48:19 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 486
+2026-04-16 23:48:19 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:48:19 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600572_20240824_YYR1.md 的第 1/3 个块
+2026-04-16 23:48:19 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600572_20240824_YYR1.md, prompt长度: 108929
+2026-04-16 23:48:22 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600566_20251028_ULDL.md 数据提取成功
+2026-04-16 23:48:22 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600566_20251028_ULDL.md 处理完成，耗时: 95.26秒
+2026-04-16 23:48:22 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600750_20250822_2DHJ.md
+2026-04-16 23:48:22 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [24/1250] 成功 - 600566_20251028_ULDL.md
+2026-04-16 23:48:22 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 418
+2026-04-16 23:48:22 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 2 个块
+2026-04-16 23:48:22 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600750_20250822_2DHJ.md 的第 1/2 个块
+2026-04-16 23:48:22 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600750_20250822_2DHJ.md, prompt长度: 108168
+2026-04-16 23:48:26 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600613_20240430_O08H.md 数据提取成功
+2026-04-16 23:48:26 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600613_20240430_O08H.md 的第 2/3 个块
+2026-04-16 23:48:26 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600613_20240430_O08H.md, prompt长度: 109209
+2026-04-16 23:48:37 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600557_20230713_LMYF.md 数据提取成功
+2026-04-16 23:48:37 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600557_20230713_LMYF.md 的第 2/2 个块
+2026-04-16 23:48:37 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600557_20230713_LMYF.md, prompt长度: 64391
+2026-04-16 23:48:49 - FinancialExtractor - ERROR - extracted_all_data.py:186 - 修复JSON失败: Request timed out.
+2026-04-16 23:49:00 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600222_20250827_MDA8.md 数据提取成功
+2026-04-16 23:49:00 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600222_20250827_MDA8.md 处理完成，耗时: 637.18秒
+2026-04-16 23:49:00 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600750_20240323_POMA.md
+2026-04-16 23:49:00 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [25/1250] 成功 - 600222_20250827_MDA8.md
+2026-04-16 23:49:00 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 25/1250, 成功: 50, 失败: 0
+2026-04-16 23:49:00 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 33
+2026-04-16 23:49:00 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:49:00 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600750_20240323_POMA.md 的第 1/1 个块
+2026-04-16 23:49:00 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600750_20240323_POMA.md, prompt长度: 17202
+2026-04-16 23:49:46 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600671_20240830_4UMC.md 数据提取成功
+2026-04-16 23:49:46 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600671_20240830_4UMC.md 处理完成，耗时: 210.04秒
+2026-04-16 23:49:46 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600129_20230825_VR0U.md
+2026-04-16 23:49:46 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [26/1250] 成功 - 600671_20240830_4UMC.md
+2026-04-16 23:49:46 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 5
+2026-04-16 23:49:46 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:49:46 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600129_20230825_VR0U.md 的第 1/1 个块
+2026-04-16 23:49:46 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600129_20230825_VR0U.md, prompt长度: 7066
+2026-04-16 23:49:51 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600572_20240824_YYR1.md 数据提取成功
+2026-04-16 23:49:51 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600572_20240824_YYR1.md 的第 2/3 个块
+2026-04-16 23:49:51 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600572_20240824_YYR1.md, prompt长度: 109090
+2026-04-16 23:49:57 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600750_20250822_2DHJ.md 数据提取成功
+2026-04-16 23:49:57 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600750_20250822_2DHJ.md 的第 2/2 个块
+2026-04-16 23:49:57 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600750_20250822_2DHJ.md, prompt长度: 98278
+2026-04-16 23:50:19 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600750_20240323_POMA.md 数据提取成功
+2026-04-16 23:50:19 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600750_20240323_POMA.md 处理完成，耗时: 78.91秒
+2026-04-16 23:50:19 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600436_20240420_H988.md
+2026-04-16 23:50:19 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [27/1250] 成功 - 600750_20240323_POMA.md
+2026-04-16 23:50:19 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 18
+2026-04-16 23:50:19 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:50:19 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600436_20240420_H988.md 的第 1/1 个块
+2026-04-16 23:50:19 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600436_20240420_H988.md, prompt长度: 24649
+2026-04-16 23:50:20 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603896_20240426_KVY9.md 数据提取成功
+2026-04-16 23:50:20 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603896_20240426_KVY9.md 处理完成，耗时: 717.53秒
+2026-04-16 23:50:20 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600557_20230221_SHDW.md
+2026-04-16 23:50:20 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [28/1250] 成功 - 603896_20240426_KVY9.md
+2026-04-16 23:50:20 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 444
+2026-04-16 23:50:20 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:50:20 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600557_20230221_SHDW.md 的第 1/3 个块
+2026-04-16 23:50:20 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600557_20230221_SHDW.md, prompt长度: 106606
+2026-04-16 23:50:46 - FinancialExtractor - ERROR - extracted_all_data.py:308 - 文件 603567_20250430_YIVD.md - 调用失败 (尝试 1/3): Request timed out.
+2026-04-16 23:50:50 - FinancialExtractor - WARNING - extracted_all_data.py:183 - 修复后仍无法解析，重试 2/2
+2026-04-16 23:50:50 - FinancialExtractor - ERROR - extracted_all_data.py:191 - JSON修复失败
+2026-04-16 23:50:50 - FinancialExtractor - INFO - extracted_all_data.py:288 - JSON修复失败，准备重试第 2 次...
+2026-04-16 23:51:08 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600129_20230825_VR0U.md 数据提取成功
+2026-04-16 23:51:08 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600129_20230825_VR0U.md 处理完成，耗时: 82.87秒
+2026-04-16 23:51:08 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600285_20240813_K1KH.md
+2026-04-16 23:51:08 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [29/1250] 成功 - 600129_20230825_VR0U.md
+2026-04-16 23:51:08 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 459
+2026-04-16 23:51:08 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 2 个块
+2026-04-16 23:51:08 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600285_20240813_K1KH.md 的第 1/2 个块
+2026-04-16 23:51:08 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600285_20240813_K1KH.md, prompt长度: 108206
+2026-04-16 23:51:27 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600557_20230221_SHDW.md 数据提取成功
+2026-04-16 23:51:27 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600557_20230221_SHDW.md 的第 2/3 个块
+2026-04-16 23:51:27 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600557_20230221_SHDW.md, prompt长度: 109061
+2026-04-16 23:51:37 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600572_20240824_YYR1.md 数据提取成功
+2026-04-16 23:51:37 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600572_20240824_YYR1.md 的第 3/3 个块
+2026-04-16 23:51:37 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600572_20240824_YYR1.md, prompt长度: 25965
+2026-04-16 23:51:56 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603567_20240827_51YQ.md 数据提取成功
+2026-04-16 23:51:56 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603567_20240827_51YQ.md 处理完成，耗时: 813.15秒
+2026-04-16 23:51:56 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600993_20240420_LS8O.md
+2026-04-16 23:51:56 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [30/1250] 成功 - 603567_20240827_51YQ.md
+2026-04-16 23:51:56 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 30/1250, 成功: 60, 失败: 0
+2026-04-16 23:51:56 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 19
+2026-04-16 23:51:56 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:51:56 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600993_20240420_LS8O.md 的第 1/1 个块
+2026-04-16 23:51:56 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600993_20240420_LS8O.md, prompt长度: 24768
+2026-04-16 23:52:15 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600613_20240430_O08H.md 数据提取成功
+2026-04-16 23:52:15 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600613_20240430_O08H.md 的第 3/3 个块
+2026-04-16 23:52:15 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600613_20240430_O08H.md, prompt长度: 48596
+2026-04-16 23:52:20 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600285_20240813_K1KH.md 数据提取成功
+2026-04-16 23:52:20 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600285_20240813_K1KH.md 的第 2/2 个块
+2026-04-16 23:52:20 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600285_20240813_K1KH.md, prompt长度: 104155
+2026-04-16 23:52:36 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600557_20230221_SHDW.md 数据提取成功
+2026-04-16 23:52:36 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600557_20230221_SHDW.md 的第 3/3 个块
+2026-04-16 23:52:36 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600557_20230221_SHDW.md, prompt长度: 29219
+2026-04-16 23:52:38 - FinancialExtractor - WARNING - extracted_all_data.py:276 - JSON括号不匹配，尝试修复...
+2026-04-16 23:52:38 - FinancialExtractor - INFO - extracted_all_data.py:147 - 尝试修复不完整的JSON，长度: 7909
+2026-04-16 23:53:28 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600613_20240430_O08H.md 数据提取成功
+2026-04-16 23:53:28 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600613_20240430_O08H.md 处理完成，耗时: 377.14秒
+2026-04-16 23:53:28 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603998_20230831_1VR2.md
+2026-04-16 23:53:28 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [31/1250] 成功 - 600613_20240430_O08H.md
+2026-04-16 23:53:28 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 444
+2026-04-16 23:53:28 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:53:28 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603998_20230831_1VR2.md 的第 1/3 个块
+2026-04-16 23:53:28 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603998_20230831_1VR2.md, prompt长度: 106296
+2026-04-16 23:53:37 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600750_20250822_2DHJ.md 数据提取成功
+2026-04-16 23:53:37 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600750_20250822_2DHJ.md 处理完成，耗时: 315.23秒
+2026-04-16 23:53:37 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600329_20240330_5GJ0.md
+2026-04-16 23:53:37 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [32/1250] 成功 - 600750_20250822_2DHJ.md
+2026-04-16 23:53:37 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 19
+2026-04-16 23:53:37 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:53:37 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600329_20240330_5GJ0.md 的第 1/1 个块
+2026-04-16 23:53:37 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600329_20240330_5GJ0.md, prompt长度: 16010
+2026-04-16 23:53:45 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600557_20230713_LMYF.md 数据提取成功
+2026-04-16 23:53:45 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600557_20230713_LMYF.md 处理完成，耗时: 406.68秒
+2026-04-16 23:53:45 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603139_20230429_3U66.md
+2026-04-16 23:53:45 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [33/1250] 成功 - 600557_20230713_LMYF.md
+2026-04-16 23:53:45 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 10
+2026-04-16 23:53:45 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:53:45 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20230429_3U66.md 的第 1/1 个块
+2026-04-16 23:53:45 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20230429_3U66.md, prompt长度: 18070
+2026-04-16 23:53:47 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600993_20240420_LS8O.md 数据提取成功
+2026-04-16 23:53:47 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600993_20240420_LS8O.md 处理完成，耗时: 110.87秒
+2026-04-16 23:53:47 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600329_20240815_WSUC.md
+2026-04-16 23:53:47 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [34/1250] 成功 - 600993_20240420_LS8O.md
+2026-04-16 23:53:47 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 7
+2026-04-16 23:53:47 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:53:47 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600329_20240815_WSUC.md 的第 1/1 个块
+2026-04-16 23:53:47 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600329_20240815_WSUC.md, prompt长度: 7443
+2026-04-16 23:53:56 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600436_20240420_H988.md 数据提取成功
+2026-04-16 23:53:56 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600436_20240420_H988.md 处理完成，耗时: 217.04秒
+2026-04-16 23:53:56 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600518_20240824_792J.md
+2026-04-16 23:53:56 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [35/1250] 成功 - 600436_20240420_H988.md
+2026-04-16 23:53:56 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 35/1250, 成功: 70, 失败: 0
+2026-04-16 23:53:56 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 488
+2026-04-16 23:53:56 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:53:56 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600518_20240824_792J.md 的第 1/3 个块
+2026-04-16 23:53:56 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600518_20240824_792J.md, prompt长度: 108719
+2026-04-16 23:54:06 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600285_20240813_K1KH.md 数据提取成功
+2026-04-16 23:54:06 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600285_20240813_K1KH.md 处理完成，耗时: 177.33秒
+2026-04-16 23:54:06 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600613_20230429_NF00.md
+2026-04-16 23:54:06 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [36/1250] 成功 - 600285_20240813_K1KH.md
+2026-04-16 23:54:06 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 12
+2026-04-16 23:54:06 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:54:06 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600613_20230429_NF00.md 的第 1/1 个块
+2026-04-16 23:54:06 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600613_20230429_NF00.md, prompt长度: 16680
+2026-04-16 23:54:33 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600329_20240330_5GJ0.md 数据提取成功
+2026-04-16 23:54:33 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600329_20240330_5GJ0.md 处理完成，耗时: 55.52秒
+2026-04-16 23:54:33 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600671_20250401_ZFXB.md
+2026-04-16 23:54:33 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [37/1250] 成功 - 600329_20240330_5GJ0.md
+2026-04-16 23:54:33 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 608
+2026-04-16 23:54:33 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:54:33 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600671_20250401_ZFXB.md 的第 1/3 个块
+2026-04-16 23:54:33 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600671_20250401_ZFXB.md, prompt长度: 108231
+2026-04-16 23:55:04 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603998_20230831_1VR2.md 数据提取成功
+2026-04-16 23:55:04 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603998_20230831_1VR2.md 的第 2/3 个块
+2026-04-16 23:55:04 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603998_20230831_1VR2.md, prompt长度: 107608
+2026-04-16 23:55:06 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600329_20240815_WSUC.md 数据提取成功
+2026-04-16 23:55:06 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600329_20240815_WSUC.md 处理完成，耗时: 79.14秒
+2026-04-16 23:55:06 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603998_20240420_V9GV.md
+2026-04-16 23:55:06 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [38/1250] 成功 - 600329_20240815_WSUC.md
+2026-04-16 23:55:06 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 15
+2026-04-16 23:55:06 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:55:06 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603998_20240420_V9GV.md 的第 1/1 个块
+2026-04-16 23:55:06 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603998_20240420_V9GV.md, prompt长度: 26582
+2026-04-16 23:55:24 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600613_20230429_NF00.md 数据提取成功
+2026-04-16 23:55:24 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600613_20230429_NF00.md 处理完成，耗时: 78.48秒
+2026-04-16 23:55:24 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603567_20231028_XFP9.md
+2026-04-16 23:55:24 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [39/1250] 成功 - 600613_20230429_NF00.md
+2026-04-16 23:55:24 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 12
+2026-04-16 23:55:24 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:55:24 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603567_20231028_XFP9.md 的第 1/1 个块
+2026-04-16 23:55:24 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603567_20231028_XFP9.md, prompt长度: 18495
+2026-04-16 23:55:29 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603139_20230429_3U66.md 数据提取成功
+2026-04-16 23:55:29 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603139_20230429_3U66.md 处理完成，耗时: 104.27秒
+2026-04-16 23:55:29 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600479_20250429_E43F.md
+2026-04-16 23:55:29 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [40/1250] 成功 - 603139_20230429_3U66.md
+2026-04-16 23:55:29 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 40/1250, 成功: 80, 失败: 0
+2026-04-16 23:55:29 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 610
+2026-04-16 23:55:29 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:55:29 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600479_20250429_E43F.md 的第 1/3 个块
+2026-04-16 23:55:29 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600479_20250429_E43F.md, prompt长度: 108461
+2026-04-16 23:55:44 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600557_20230221_SHDW.md 数据提取成功
+2026-04-16 23:55:44 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600557_20230221_SHDW.md 处理完成，耗时: 323.98秒
+2026-04-16 23:55:44 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600771_20230422_NKU3.md
+2026-04-16 23:55:44 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [41/1250] 成功 - 600557_20230221_SHDW.md
+2026-04-16 23:55:44 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 500
+2026-04-16 23:55:44 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-16 23:55:44 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600771_20230422_NKU3.md 的第 1/3 个块
+2026-04-16 23:55:44 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600771_20230422_NKU3.md, prompt长度: 104619
+2026-04-16 23:55:54 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600518_20240824_792J.md 数据提取成功
+2026-04-16 23:55:54 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600518_20240824_792J.md 的第 2/3 个块
+2026-04-16 23:55:54 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600518_20240824_792J.md, prompt长度: 109561
+2026-04-16 23:56:02 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600671_20250401_ZFXB.md 数据提取成功
+2026-04-16 23:56:02 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600671_20250401_ZFXB.md 的第 2/3 个块
+2026-04-16 23:56:02 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600671_20250401_ZFXB.md, prompt长度: 107815
+2026-04-16 23:56:37 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603567_20231028_XFP9.md 数据提取成功
+2026-04-16 23:56:37 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603567_20231028_XFP9.md 处理完成，耗时: 72.78秒
+2026-04-16 23:56:37 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600671_20231028_TBLU.md
+2026-04-16 23:56:37 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [42/1250] 成功 - 603567_20231028_XFP9.md
+2026-04-16 23:56:37 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 12
+2026-04-16 23:56:37 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:56:37 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600671_20231028_TBLU.md 的第 1/1 个块
+2026-04-16 23:56:37 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600671_20231028_TBLU.md, prompt长度: 23551
+2026-04-16 23:56:44 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603998_20230831_1VR2.md 数据提取成功
+2026-04-16 23:56:44 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603998_20230831_1VR2.md 的第 3/3 个块
+2026-04-16 23:56:44 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603998_20230831_1VR2.md, prompt长度: 29390
+2026-04-16 23:56:54 - FinancialExtractor - ERROR - extracted_all_data.py:308 - 文件 600422_20250816_X5KJ.md - 调用失败 (尝试 2/3): Request timed out.
+2026-04-16 23:57:04 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600479_20250429_E43F.md 数据提取成功
+2026-04-16 23:57:04 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600479_20250429_E43F.md 的第 2/3 个块
+2026-04-16 23:57:04 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600479_20250429_E43F.md, prompt长度: 109187
+2026-04-16 23:57:17 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600671_20250401_ZFXB.md 数据提取成功
+2026-04-16 23:57:17 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600671_20250401_ZFXB.md 的第 3/3 个块
+2026-04-16 23:57:17 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600671_20250401_ZFXB.md, prompt长度: 60985
+2026-04-16 23:57:28 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600771_20230422_NKU3.md 数据提取成功
+2026-04-16 23:57:28 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600771_20230422_NKU3.md 的第 2/3 个块
+2026-04-16 23:57:28 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600771_20230422_NKU3.md, prompt长度: 108615
+2026-04-16 23:57:39 - FinancialExtractor - ERROR - extracted_all_data.py:308 - 文件 600572_20240824_YYR1.md - 调用失败 (尝试 1/3): Request timed out.
+2026-04-16 23:57:39 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600518_20240824_792J.md 数据提取成功
+2026-04-16 23:57:39 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600518_20240824_792J.md 的第 3/3 个块
+2026-04-16 23:57:39 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600518_20240824_792J.md, prompt长度: 60650
+2026-04-16 23:58:40 - FinancialExtractor - ERROR - extracted_all_data.py:186 - 修复JSON失败: Request timed out.
+2026-04-16 23:58:46 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600479_20250429_E43F.md 数据提取成功
+2026-04-16 23:58:46 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600479_20250429_E43F.md 的第 3/3 个块
+2026-04-16 23:58:46 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600479_20250429_E43F.md, prompt长度: 65606
+2026-04-16 23:59:47 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600671_20231028_TBLU.md 数据提取成功
+2026-04-16 23:59:47 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600671_20231028_TBLU.md 处理完成，耗时: 189.62秒
+2026-04-16 23:59:47 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603567_20230429_USN4.md
+2026-04-16 23:59:47 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [43/1250] 成功 - 600671_20231028_TBLU.md
+2026-04-16 23:59:47 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 11
+2026-04-16 23:59:47 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-16 23:59:47 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603567_20230429_USN4.md 的第 1/1 个块
+2026-04-16 23:59:47 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603567_20230429_USN4.md, prompt长度: 19093
+2026-04-17 00:00:17 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600479_20250429_E43F.md 数据提取成功
+2026-04-17 00:00:17 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600479_20250429_E43F.md 处理完成，耗时: 287.46秒
+2026-04-17 00:00:17 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600976_20240816_554L.md
+2026-04-17 00:00:17 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [44/1250] 成功 - 600479_20250429_E43F.md
+2026-04-17 00:00:17 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 6
+2026-04-17 00:00:17 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:00:17 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600976_20240816_554L.md 的第 1/1 个块
+2026-04-17 00:00:17 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600976_20240816_554L.md, prompt长度: 7189
+2026-04-17 00:00:24 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603998_20240420_V9GV.md 数据提取成功
+2026-04-17 00:00:24 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603998_20240420_V9GV.md 处理完成，耗时: 318.05秒
+2026-04-17 00:00:24 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600085_20230328_KEHR.md
+2026-04-17 00:00:24 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [45/1250] 成功 - 603998_20240420_V9GV.md
+2026-04-17 00:00:24 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 45/1250, 成功: 90, 失败: 0
+2026-04-17 00:00:24 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 13
+2026-04-17 00:00:24 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:00:24 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600085_20230328_KEHR.md 的第 1/1 个块
+2026-04-17 00:00:24 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600085_20230328_KEHR.md, prompt长度: 11793
+2026-04-17 00:00:59 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603567_20230429_USN4.md 数据提取成功
+2026-04-17 00:00:59 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603567_20230429_USN4.md 处理完成，耗时: 72.52秒
+2026-04-17 00:00:59 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600518_20230429_4X38.md
+2026-04-17 00:00:59 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [46/1250] 成功 - 603567_20230429_USN4.md
+2026-04-17 00:00:59 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 21
+2026-04-17 00:00:59 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:00:59 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600518_20230429_4X38.md 的第 1/1 个块
+2026-04-17 00:00:59 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600518_20230429_4X38.md, prompt长度: 32965
+2026-04-17 00:01:31 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600085_20230328_KEHR.md 数据提取成功
+2026-04-17 00:01:31 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600085_20230328_KEHR.md 处理完成，耗时: 66.82秒
+2026-04-17 00:01:31 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600085_20240329_94CA.md
+2026-04-17 00:01:31 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [47/1250] 成功 - 600085_20230328_KEHR.md
+2026-04-17 00:01:31 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 11
+2026-04-17 00:01:31 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:01:31 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600085_20240329_94CA.md 的第 1/1 个块
+2026-04-17 00:01:31 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600085_20240329_94CA.md, prompt长度: 10469
+2026-04-17 00:01:52 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600976_20240816_554L.md 数据提取成功
+2026-04-17 00:01:52 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600976_20240816_554L.md 处理完成，耗时: 95.19秒
+2026-04-17 00:01:52 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600750_20231028_LGBP.md
+2026-04-17 00:01:52 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [48/1250] 成功 - 600976_20240816_554L.md
+2026-04-17 00:01:52 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 13
+2026-04-17 00:01:52 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:01:52 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600750_20231028_LGBP.md 的第 1/1 个块
+2026-04-17 00:01:52 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600750_20231028_LGBP.md, prompt长度: 24777
+2026-04-17 00:02:13 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600518_20230429_4X38.md 数据提取成功
+2026-04-17 00:02:13 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600518_20230429_4X38.md 处理完成，耗时: 73.71秒
+2026-04-17 00:02:13 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600332_20230428_LE89.md
+2026-04-17 00:02:13 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [49/1250] 成功 - 600518_20230429_4X38.md
+2026-04-17 00:02:13 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 12
+2026-04-17 00:02:13 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:02:13 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600332_20230428_LE89.md 的第 1/1 个块
+2026-04-17 00:02:13 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600332_20230428_LE89.md, prompt长度: 18280
+2026-04-17 00:02:31 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600085_20240329_94CA.md 数据提取成功
+2026-04-17 00:02:31 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600085_20240329_94CA.md 处理完成，耗时: 60.27秒
+2026-04-17 00:02:31 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600080_20250425_LXGH.md
+2026-04-17 00:02:31 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [50/1250] 成功 - 600085_20240329_94CA.md
+2026-04-17 00:02:31 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 50/1250, 成功: 100, 失败: 0
+2026-04-17 00:02:31 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 664
+2026-04-17 00:02:31 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-17 00:02:31 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600080_20250425_LXGH.md 的第 1/3 个块
+2026-04-17 00:02:31 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600080_20250425_LXGH.md, prompt长度: 107950
+2026-04-17 00:02:45 - FinancialExtractor - ERROR - extracted_all_data.py:308 - 文件 603998_20230831_1VR2.md - 调用失败 (尝试 1/3): Request timed out.
+2026-04-17 00:02:58 - FinancialExtractor - ERROR - extracted_all_data.py:308 - 文件 600422_20250816_X5KJ.md - 调用失败 (尝试 3/3): Request timed out.
+2026-04-17 00:02:58 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600252_20240330_3D7L.md
+2026-04-17 00:02:58 - FinancialExtractor - ERROR - extracted_all_data.py:468 - ❌ 进度: [51/1250] 失败 - 600422_20250816_X5KJ.md - 错误: Request timed out.
+2026-04-17 00:02:58 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 602
+2026-04-17 00:02:58 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 4 个块
+2026-04-17 00:02:58 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600252_20240330_3D7L.md 的第 1/4 个块
+2026-04-17 00:02:58 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600252_20240330_3D7L.md, prompt长度: 108043
+2026-04-17 00:03:06 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600750_20231028_LGBP.md 数据提取成功
+2026-04-17 00:03:06 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600750_20231028_LGBP.md 处理完成，耗时: 74.06秒
+2026-04-17 00:03:06 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600594_20230428_H37S.md
+2026-04-17 00:03:06 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [52/1250] 成功 - 600750_20231028_LGBP.md
+2026-04-17 00:03:06 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 15
+2026-04-17 00:03:06 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:03:06 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600594_20230428_H37S.md 的第 1/1 个块
+2026-04-17 00:03:06 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600594_20230428_H37S.md, prompt长度: 23015
+2026-04-17 00:03:13 - FinancialExtractor - WARNING - extracted_all_data.py:276 - JSON括号不匹配，尝试修复...
+2026-04-17 00:03:13 - FinancialExtractor - INFO - extracted_all_data.py:147 - 尝试修复不完整的JSON，长度: 8172
+2026-04-17 00:03:30 - FinancialExtractor - ERROR - extracted_all_data.py:308 - 文件 600771_20230422_NKU3.md - 调用失败 (尝试 1/3): Request timed out.
+2026-04-17 00:03:41 - FinancialExtractor - ERROR - extracted_all_data.py:308 - 文件 600518_20240824_792J.md - 调用失败 (尝试 1/3): Request timed out.
+2026-04-17 00:03:42 - FinancialExtractor - ERROR - extracted_all_data.py:308 - 文件 600572_20240824_YYR1.md - 调用失败 (尝试 2/3): Request timed out.
+2026-04-17 00:03:46 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600080_20250425_LXGH.md 数据提取成功
+2026-04-17 00:03:46 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600080_20250425_LXGH.md 的第 2/3 个块
+2026-04-17 00:03:46 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600080_20250425_LXGH.md, prompt长度: 108993
+2026-04-17 00:04:05 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600252_20240330_3D7L.md 数据提取成功
+2026-04-17 00:04:05 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600252_20240330_3D7L.md 的第 2/4 个块
+2026-04-17 00:04:05 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600252_20240330_3D7L.md, prompt长度: 107934
+2026-04-17 00:04:06 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600332_20230428_LE89.md 数据提取成功
+2026-04-17 00:04:06 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600332_20230428_LE89.md 处理完成，耗时: 113.50秒
+2026-04-17 00:04:06 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600329_20230401_203X.md
+2026-04-17 00:04:06 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [53/1250] 成功 - 600332_20230428_LE89.md
+2026-04-17 00:04:06 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 512
+2026-04-17 00:04:06 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 2 个块
+2026-04-17 00:04:06 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600329_20230401_203X.md 的第 1/2 个块
+2026-04-17 00:04:06 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600329_20230401_203X.md, prompt长度: 108933
+2026-04-17 00:04:43 - FinancialExtractor - ERROR - extracted_all_data.py:186 - 修复JSON失败: Request timed out.
+2026-04-17 00:04:43 - FinancialExtractor - ERROR - extracted_all_data.py:191 - JSON修复失败
+2026-04-17 00:04:43 - FinancialExtractor - INFO - extracted_all_data.py:288 - JSON修复失败，准备重试第 3 次...
+2026-04-17 00:04:59 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600080_20250425_LXGH.md 数据提取成功
+2026-04-17 00:04:59 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600080_20250425_LXGH.md 的第 3/3 个块
+2026-04-17 00:04:59 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600080_20250425_LXGH.md, prompt长度: 65761
+2026-04-17 00:05:27 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600329_20230401_203X.md 数据提取成功
+2026-04-17 00:05:27 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600329_20230401_203X.md 的第 2/2 个块
+2026-04-17 00:05:27 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600329_20230401_203X.md, prompt长度: 18277
+2026-04-17 00:05:28 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600771_20230422_NKU3.md 数据提取成功
+2026-04-17 00:05:28 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600771_20230422_NKU3.md 的第 3/3 个块
+2026-04-17 00:05:28 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600771_20230422_NKU3.md, prompt长度: 74220
+2026-04-17 00:06:07 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600080_20250425_LXGH.md 数据提取成功
+2026-04-17 00:06:07 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600080_20250425_LXGH.md 处理完成，耗时: 215.56秒
+2026-04-17 00:06:07 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603439_20230415_BB48.md
+2026-04-17 00:06:07 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [54/1250] 成功 - 600080_20250425_LXGH.md
+2026-04-17 00:06:07 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 30
+2026-04-17 00:06:07 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:06:07 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603439_20230415_BB48.md 的第 1/1 个块
+2026-04-17 00:06:07 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603439_20230415_BB48.md, prompt长度: 13382
+2026-04-17 00:06:35 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600329_20230401_203X.md 数据提取成功
+2026-04-17 00:06:35 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600329_20230401_203X.md 处理完成，耗时: 148.32秒
+2026-04-17 00:06:35 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600671_20250401_NYHZ.md
+2026-04-17 00:06:35 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [55/1250] 成功 - 600329_20230401_203X.md
+2026-04-17 00:06:35 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 55/1250, 成功: 108, 失败: 1
+2026-04-17 00:06:35 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 16
+2026-04-17 00:06:35 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:06:35 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600671_20250401_NYHZ.md 的第 1/1 个块
+2026-04-17 00:06:35 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600671_20250401_NYHZ.md, prompt长度: 13418
+2026-04-17 00:06:40 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600771_20230422_NKU3.md 数据提取成功
+2026-04-17 00:06:40 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600771_20230422_NKU3.md 处理完成，耗时: 655.33秒
+2026-04-17 00:06:40 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600771_20241026_BJ2W.md
+2026-04-17 00:06:40 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [56/1250] 成功 - 600771_20230422_NKU3.md
+2026-04-17 00:06:40 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 14
+2026-04-17 00:06:40 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:06:40 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600771_20241026_BJ2W.md 的第 1/1 个块
+2026-04-17 00:06:40 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600771_20241026_BJ2W.md, prompt长度: 19660
+2026-04-17 00:06:52 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600594_20230428_H37S.md 数据提取成功
+2026-04-17 00:06:52 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600594_20230428_H37S.md 处理完成，耗时: 226.10秒
+2026-04-17 00:06:52 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600613_20240430_XLZU.md
+2026-04-17 00:06:52 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [57/1250] 成功 - 600594_20230428_H37S.md
+2026-04-17 00:06:52 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 20
+2026-04-17 00:06:52 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:06:52 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600613_20240430_XLZU.md 的第 1/1 个块
+2026-04-17 00:06:52 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600613_20240430_XLZU.md, prompt长度: 19069
+2026-04-17 00:07:34 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600252_20240330_3D7L.md 数据提取成功
+2026-04-17 00:07:34 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600252_20240330_3D7L.md 的第 3/4 个块
+2026-04-17 00:07:34 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600252_20240330_3D7L.md, prompt长度: 109223
+2026-04-17 00:07:55 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600671_20250401_NYHZ.md 数据提取成功
+2026-04-17 00:07:55 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600671_20250401_NYHZ.md 处理完成，耗时: 80.03秒
+2026-04-17 00:07:55 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600436_20240420_1K89.md
+2026-04-17 00:07:55 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [58/1250] 成功 - 600671_20250401_NYHZ.md
+2026-04-17 00:07:55 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 683
+2026-04-17 00:07:55 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-17 00:07:55 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600436_20240420_1K89.md 的第 1/3 个块
+2026-04-17 00:07:55 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600436_20240420_1K89.md, prompt长度: 108142
+2026-04-17 00:08:06 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603998_20230831_1VR2.md 数据提取成功
+2026-04-17 00:08:06 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603998_20230831_1VR2.md 处理完成，耗时: 878.58秒
+2026-04-17 00:08:06 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603139_20251030_UTYP.md
+2026-04-17 00:08:06 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [59/1250] 成功 - 603998_20230831_1VR2.md
+2026-04-17 00:08:06 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 17
+2026-04-17 00:08:06 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:08:06 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20251030_UTYP.md 的第 1/1 个块
+2026-04-17 00:08:06 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20251030_UTYP.md, prompt长度: 19240
+2026-04-17 00:08:13 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600771_20241026_BJ2W.md 数据提取成功
+2026-04-17 00:08:13 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600771_20241026_BJ2W.md 处理完成，耗时: 92.98秒
+2026-04-17 00:08:13 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603858_20231028_M4IX.md
+2026-04-17 00:08:13 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [60/1250] 成功 - 600771_20241026_BJ2W.md
+2026-04-17 00:08:13 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 60/1250, 成功: 118, 失败: 1
+2026-04-17 00:08:13 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 17
+2026-04-17 00:08:13 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:08:13 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603858_20231028_M4IX.md 的第 1/1 个块
+2026-04-17 00:08:13 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603858_20231028_M4IX.md, prompt长度: 16700
+2026-04-17 00:08:38 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600613_20240430_XLZU.md 数据提取成功
+2026-04-17 00:08:38 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600613_20240430_XLZU.md 处理完成，耗时: 105.25秒
+2026-04-17 00:08:38 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600085_20231031_FY07.md
+2026-04-17 00:08:38 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [61/1250] 成功 - 600613_20240430_XLZU.md
+2026-04-17 00:08:38 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 12
+2026-04-17 00:08:38 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:08:38 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600085_20231031_FY07.md 的第 1/1 个块
+2026-04-17 00:08:38 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600085_20231031_FY07.md, prompt长度: 22531
+2026-04-17 00:09:06 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600436_20240420_1K89.md 数据提取成功
+2026-04-17 00:09:06 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600436_20240420_1K89.md 的第 2/3 个块
+2026-04-17 00:09:06 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600436_20240420_1K89.md, prompt长度: 104264
+2026-04-17 00:09:15 - FinancialExtractor - ERROR - extracted_all_data.py:186 - 修复JSON失败: Request timed out.
+2026-04-17 00:09:24 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600252_20240330_3D7L.md 数据提取成功
+2026-04-17 00:09:24 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600252_20240330_3D7L.md 的第 4/4 个块
+2026-04-17 00:09:24 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600252_20240330_3D7L.md, prompt长度: 70484
+2026-04-17 00:09:45 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603139_20251030_UTYP.md 数据提取成功
+2026-04-17 00:09:45 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603139_20251030_UTYP.md 处理完成，耗时: 98.38秒
+2026-04-17 00:09:45 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600129_20240426_9B08.md
+2026-04-17 00:09:45 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [62/1250] 成功 - 603139_20251030_UTYP.md
+2026-04-17 00:09:45 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 12
+2026-04-17 00:09:45 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:09:45 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600129_20240426_9B08.md 的第 1/1 个块
+2026-04-17 00:09:45 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600129_20240426_9B08.md, prompt长度: 18788
+2026-04-17 00:09:45 - FinancialExtractor - ERROR - extracted_all_data.py:308 - 文件 600518_20240824_792J.md - 调用失败 (尝试 2/3): Request timed out.
+2026-04-17 00:09:46 - FinancialExtractor - ERROR - extracted_all_data.py:308 - 文件 600572_20240824_YYR1.md - 调用失败 (尝试 3/3): Request timed out.
+2026-04-17 00:09:46 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600329_20250331_WYS4.md
+2026-04-17 00:09:46 - FinancialExtractor - ERROR - extracted_all_data.py:468 - ❌ 进度: [63/1250] 失败 - 600572_20240824_YYR1.md - 错误: Request timed out.
+2026-04-17 00:09:46 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 676
+2026-04-17 00:09:46 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 4 个块
+2026-04-17 00:09:46 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600329_20250331_WYS4.md 的第 1/4 个块
+2026-04-17 00:09:46 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600329_20250331_WYS4.md, prompt长度: 108734
+2026-04-17 00:09:55 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600085_20231031_FY07.md 数据提取成功
+2026-04-17 00:09:55 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600085_20231031_FY07.md 处理完成，耗时: 77.30秒
+2026-04-17 00:09:55 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600351_20250426_6XWC.md
+2026-04-17 00:09:55 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [64/1250] 成功 - 600085_20231031_FY07.md
+2026-04-17 00:09:55 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 594
+2026-04-17 00:09:55 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-17 00:09:55 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600351_20250426_6XWC.md 的第 1/3 个块
+2026-04-17 00:09:55 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600351_20250426_6XWC.md, prompt长度: 108740
+2026-04-17 00:10:46 - FinancialExtractor - ERROR - extracted_all_data.py:308 - 文件 603567_20250430_YIVD.md - 调用失败 (尝试 3/3): Request timed out.
+2026-04-17 00:10:46 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603139_20250429_MGZZ.md
+2026-04-17 00:10:46 - FinancialExtractor - ERROR - extracted_all_data.py:468 - ❌ 进度: [65/1250] 失败 - 603567_20250430_YIVD.md - 错误: Request timed out.
+2026-04-17 00:10:46 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 564
+2026-04-17 00:10:46 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-17 00:10:46 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 65/1250, 成功: 124, 失败: 3
+2026-04-17 00:10:46 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20250429_MGZZ.md 的第 1/3 个块
+2026-04-17 00:10:46 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20250429_MGZZ.md, prompt长度: 107913
+2026-04-17 00:10:48 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600436_20240420_1K89.md 数据提取成功
+2026-04-17 00:10:48 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600436_20240420_1K89.md 的第 3/3 个块
+2026-04-17 00:10:48 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600436_20240420_1K89.md, prompt长度: 97106
+2026-04-17 00:11:08 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603439_20230415_BB48.md 数据提取成功
+2026-04-17 00:11:08 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603439_20230415_BB48.md 处理完成，耗时: 301.52秒
+2026-04-17 00:11:08 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600613_20250830_OERR.md
+2026-04-17 00:11:08 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [66/1250] 成功 - 603439_20230415_BB48.md
+2026-04-17 00:11:08 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 396
+2026-04-17 00:11:08 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 2 个块
+2026-04-17 00:11:08 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600613_20250830_OERR.md 的第 1/2 个块
+2026-04-17 00:11:08 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600613_20250830_OERR.md, prompt长度: 108729
+2026-04-17 00:11:23 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600252_20240330_3D7L.md 数据提取成功
+2026-04-17 00:11:23 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600252_20240330_3D7L.md 处理完成，耗时: 505.47秒
+2026-04-17 00:11:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600993_20240824_14JI.md
+2026-04-17 00:11:23 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [67/1250] 成功 - 600252_20240330_3D7L.md
+2026-04-17 00:11:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 475
+2026-04-17 00:11:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-17 00:11:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600993_20240824_14JI.md 的第 1/3 个块
+2026-04-17 00:11:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600993_20240824_14JI.md, prompt长度: 107971
+2026-04-17 00:11:26 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600329_20250331_WYS4.md 数据提取成功
+2026-04-17 00:11:26 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600329_20250331_WYS4.md 的第 2/4 个块
+2026-04-17 00:11:26 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600329_20250331_WYS4.md, prompt长度: 109164
+2026-04-17 00:11:27 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603858_20231028_M4IX.md 数据提取成功
+2026-04-17 00:11:27 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603858_20231028_M4IX.md 处理完成，耗时: 194.01秒
+2026-04-17 00:11:27 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600771_20250819_AFRJ.md
+2026-04-17 00:11:27 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [68/1250] 成功 - 603858_20231028_M4IX.md
+2026-04-17 00:11:27 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 8
+2026-04-17 00:11:27 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:11:27 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600771_20250819_AFRJ.md 的第 1/1 个块
+2026-04-17 00:11:27 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600771_20250819_AFRJ.md, prompt长度: 7431
+2026-04-17 00:11:59 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600436_20240420_1K89.md 数据提取成功
+2026-04-17 00:11:59 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600436_20240420_1K89.md 处理完成，耗时: 243.90秒
+2026-04-17 00:11:59 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600085_20240329_NJ0B.md
+2026-04-17 00:11:59 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [69/1250] 成功 - 600436_20240420_1K89.md
+2026-04-17 00:11:59 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 510
+2026-04-17 00:11:59 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-17 00:11:59 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600085_20240329_NJ0B.md 的第 1/3 个块
+2026-04-17 00:11:59 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600085_20240329_NJ0B.md, prompt长度: 106163
+2026-04-17 00:12:01 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603139_20250429_MGZZ.md 数据提取成功
+2026-04-17 00:12:01 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20250429_MGZZ.md 的第 2/3 个块
+2026-04-17 00:12:01 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20250429_MGZZ.md, prompt长度: 109264
+2026-04-17 00:12:35 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600613_20250830_OERR.md 数据提取成功
+2026-04-17 00:12:35 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600613_20250830_OERR.md 的第 2/2 个块
+2026-04-17 00:12:35 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600613_20250830_OERR.md, prompt长度: 72627
+2026-04-17 00:12:49 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600771_20250819_AFRJ.md 数据提取成功
+2026-04-17 00:12:49 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600771_20250819_AFRJ.md 处理完成，耗时: 82.24秒
+2026-04-17 00:12:49 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600557_20240727_0UJ5.md
+2026-04-17 00:12:49 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [70/1250] 成功 - 600771_20250819_AFRJ.md
+2026-04-17 00:12:49 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 14
+2026-04-17 00:12:49 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 70/1250, 成功: 134, 失败: 3
+2026-04-17 00:12:49 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:12:49 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600557_20240727_0UJ5.md 的第 1/1 个块
+2026-04-17 00:12:49 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600557_20240727_0UJ5.md, prompt长度: 10956
+2026-04-17 00:13:12 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600993_20240824_14JI.md 数据提取成功
+2026-04-17 00:13:12 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600993_20240824_14JI.md 的第 2/3 个块
+2026-04-17 00:13:12 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600993_20240824_14JI.md, prompt长度: 109327
+2026-04-17 00:13:19 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600085_20240329_NJ0B.md 数据提取成功
+2026-04-17 00:13:19 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600085_20240329_NJ0B.md 的第 2/3 个块
+2026-04-17 00:13:19 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600085_20240329_NJ0B.md, prompt长度: 109418
+2026-04-17 00:13:23 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600129_20240426_9B08.md 数据提取成功
+2026-04-17 00:13:23 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600129_20240426_9B08.md 处理完成，耗时: 218.20秒
+2026-04-17 00:13:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600129_20250329_NDLU.md
+2026-04-17 00:13:23 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [71/1250] 成功 - 600129_20240426_9B08.md
+2026-04-17 00:13:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 649
+2026-04-17 00:13:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-17 00:13:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600129_20250329_NDLU.md 的第 1/3 个块
+2026-04-17 00:13:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600129_20250329_NDLU.md, prompt长度: 108795
+2026-04-17 00:13:45 - FinancialExtractor - WARNING - extracted_all_data.py:276 - JSON括号不匹配，尝试修复...
+2026-04-17 00:13:45 - FinancialExtractor - INFO - extracted_all_data.py:147 - 尝试修复不完整的JSON，长度: 8593
+2026-04-17 00:13:50 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600351_20250426_6XWC.md 数据提取成功
+2026-04-17 00:13:50 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600351_20250426_6XWC.md 的第 2/3 个块
+2026-04-17 00:13:50 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600351_20250426_6XWC.md, prompt长度: 108635
+2026-04-17 00:14:06 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600557_20240727_0UJ5.md 数据提取成功
+2026-04-17 00:14:06 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600557_20240727_0UJ5.md 处理完成，耗时: 77.44秒
+2026-04-17 00:14:06 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600080_20230428_PCK7.md
+2026-04-17 00:14:06 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [72/1250] 成功 - 600557_20240727_0UJ5.md
+2026-04-17 00:14:06 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 13
+2026-04-17 00:14:06 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:14:06 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600080_20230428_PCK7.md 的第 1/1 个块
+2026-04-17 00:14:06 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600080_20230428_PCK7.md, prompt长度: 17999
+2026-04-17 00:14:29 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600993_20240824_14JI.md 数据提取成功
+2026-04-17 00:14:29 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600993_20240824_14JI.md 的第 3/3 个块
+2026-04-17 00:14:29 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600993_20240824_14JI.md, prompt长度: 14867
+2026-04-17 00:14:31 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600129_20250329_NDLU.md 数据提取成功
+2026-04-17 00:14:31 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600129_20250329_NDLU.md 的第 2/3 个块
+2026-04-17 00:14:31 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600129_20250329_NDLU.md, prompt长度: 108775
+2026-04-17 00:15:07 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600351_20250426_6XWC.md 数据提取成功
+2026-04-17 00:15:07 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600351_20250426_6XWC.md 的第 3/3 个块
+2026-04-17 00:15:07 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600351_20250426_6XWC.md, prompt长度: 84468
+2026-04-17 00:15:18 - FinancialExtractor - ERROR - extracted_all_data.py:186 - 修复JSON失败: Request timed out.
+2026-04-17 00:15:18 - FinancialExtractor - ERROR - extracted_all_data.py:191 - JSON修复失败
+2026-04-17 00:15:18 - FinancialExtractor - INFO - extracted_all_data.py:288 - JSON修复失败，准备重试第 2 次...
+2026-04-17 00:15:19 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600085_20240329_NJ0B.md 数据提取成功
+2026-04-17 00:15:19 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600085_20240329_NJ0B.md 的第 3/3 个块
+2026-04-17 00:15:19 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600085_20240329_NJ0B.md, prompt长度: 100941
+2026-04-17 00:15:50 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600080_20230428_PCK7.md 数据提取成功
+2026-04-17 00:15:50 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600080_20230428_PCK7.md 处理完成，耗时: 104.06秒
+2026-04-17 00:15:50 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603858_20240828_Y4NH.md
+2026-04-17 00:15:50 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [73/1250] 成功 - 600080_20230428_PCK7.md
+2026-04-17 00:15:50 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 490
+2026-04-17 00:15:50 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-17 00:15:50 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603858_20240828_Y4NH.md 的第 1/3 个块
+2026-04-17 00:15:50 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603858_20240828_Y4NH.md, prompt长度: 108790
+2026-04-17 00:15:56 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600613_20250830_OERR.md 数据提取成功
+2026-04-17 00:15:56 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600613_20250830_OERR.md 处理完成，耗时: 288.09秒
+2026-04-17 00:15:56 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603567_20250430_X368.md
+2026-04-17 00:15:56 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [74/1250] 成功 - 600613_20250830_OERR.md
+2026-04-17 00:15:56 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 12
+2026-04-17 00:15:56 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:15:56 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603567_20250430_X368.md 的第 1/1 个块
+2026-04-17 00:15:56 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603567_20250430_X368.md, prompt长度: 17883
+2026-04-17 00:16:40 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600329_20250331_WYS4.md 数据提取成功
+2026-04-17 00:16:40 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600329_20250331_WYS4.md 的第 3/4 个块
+2026-04-17 00:16:40 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600329_20250331_WYS4.md, prompt长度: 108211
+2026-04-17 00:16:52 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600351_20250426_6XWC.md 数据提取成功
+2026-04-17 00:16:52 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600351_20250426_6XWC.md 处理完成，耗时: 417.52秒
+2026-04-17 00:16:52 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600976_20251022_GO8W.md
+2026-04-17 00:16:52 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [75/1250] 成功 - 600351_20250426_6XWC.md
+2026-04-17 00:16:52 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 18
+2026-04-17 00:16:52 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 75/1250, 成功: 144, 失败: 3
+2026-04-17 00:16:52 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:16:52 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600976_20251022_GO8W.md 的第 1/1 个块
+2026-04-17 00:16:52 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600976_20251022_GO8W.md, prompt长度: 18294
+2026-04-17 00:17:39 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603567_20250430_X368.md 数据提取成功
+2026-04-17 00:17:39 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603567_20250430_X368.md 处理完成，耗时: 102.89秒
+2026-04-17 00:17:39 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600129_20240823_1QDN.md
+2026-04-17 00:17:39 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [76/1250] 成功 - 603567_20250430_X368.md
+2026-04-17 00:17:39 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 496
+2026-04-17 00:17:39 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-17 00:17:39 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600129_20240823_1QDN.md 的第 1/3 个块
+2026-04-17 00:17:39 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600129_20240823_1QDN.md, prompt长度: 108867
+2026-04-17 00:17:47 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603139_20250429_MGZZ.md 数据提取成功
+2026-04-17 00:17:47 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20250429_MGZZ.md 的第 3/3 个块
+2026-04-17 00:17:47 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20250429_MGZZ.md, prompt长度: 57471
+2026-04-17 00:17:57 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600993_20240824_14JI.md 数据提取成功
+2026-04-17 00:17:57 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600993_20240824_14JI.md 处理完成，耗时: 393.86秒
+2026-04-17 00:17:57 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603439_20240829_M2UL.md
+2026-04-17 00:17:57 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [77/1250] 成功 - 600993_20240824_14JI.md
+2026-04-17 00:17:57 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 13
+2026-04-17 00:17:57 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:17:57 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603439_20240829_M2UL.md 的第 1/1 个块
+2026-04-17 00:17:57 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603439_20240829_M2UL.md, prompt长度: 7881
+2026-04-17 00:18:27 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600129_20250329_NDLU.md 数据提取成功
+2026-04-17 00:18:27 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600129_20250329_NDLU.md 的第 3/3 个块
+2026-04-17 00:18:27 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600129_20250329_NDLU.md, prompt长度: 88998
+2026-04-17 00:18:35 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600085_20240329_NJ0B.md 数据提取成功
+2026-04-17 00:18:35 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600085_20240329_NJ0B.md 处理完成，耗时: 395.86秒
+2026-04-17 00:18:35 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600572_20230419_G3NP.md
+2026-04-17 00:18:35 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [78/1250] 成功 - 600085_20240329_NJ0B.md
+2026-04-17 00:18:35 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 13
+2026-04-17 00:18:35 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:18:35 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600572_20230419_G3NP.md 的第 1/1 个块
+2026-04-17 00:18:35 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600572_20230419_G3NP.md, prompt长度: 26984
+2026-04-17 00:18:41 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600976_20251022_GO8W.md 数据提取成功
+2026-04-17 00:18:41 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600976_20251022_GO8W.md 处理完成，耗时: 108.93秒
+2026-04-17 00:18:41 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600594_20251030_LP0O.md
+2026-04-17 00:18:41 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [79/1250] 成功 - 600976_20251022_GO8W.md
+2026-04-17 00:18:41 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 16
+2026-04-17 00:18:41 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:18:41 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600594_20251030_LP0O.md 的第 1/1 个块
+2026-04-17 00:18:41 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600594_20251030_LP0O.md, prompt长度: 20806
+2026-04-17 00:18:59 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600129_20240823_1QDN.md 数据提取成功
+2026-04-17 00:18:59 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600129_20240823_1QDN.md 的第 2/3 个块
+2026-04-17 00:18:59 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600129_20240823_1QDN.md, prompt长度: 109614
+2026-04-17 00:19:15 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603439_20240829_M2UL.md 数据提取成功
+2026-04-17 00:19:15 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603439_20240829_M2UL.md 处理完成，耗时: 77.91秒
+2026-04-17 00:19:15 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600976_20250322_WYY3.md
+2026-04-17 00:19:15 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [80/1250] 成功 - 603439_20240829_M2UL.md
+2026-04-17 00:19:15 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 32
+2026-04-17 00:19:15 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 80/1250, 成功: 154, 失败: 3
+2026-04-17 00:19:15 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:19:15 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600976_20250322_WYY3.md 的第 1/1 个块
+2026-04-17 00:19:15 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600976_20250322_WYY3.md, prompt长度: 18279
+2026-04-17 00:19:19 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603139_20250429_MGZZ.md 数据提取成功
+2026-04-17 00:19:19 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603139_20250429_MGZZ.md 处理完成，耗时: 512.39秒
+2026-04-17 00:19:19 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603858_20230428_6PPA.md
+2026-04-17 00:19:19 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [81/1250] 成功 - 603139_20250429_MGZZ.md
+2026-04-17 00:19:19 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 10
+2026-04-17 00:19:19 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:19:19 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603858_20230428_6PPA.md 的第 1/1 个块
+2026-04-17 00:19:19 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603858_20230428_6PPA.md, prompt长度: 13737
+2026-04-17 00:19:22 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603858_20240828_Y4NH.md 数据提取成功
+2026-04-17 00:19:22 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603858_20240828_Y4NH.md 的第 2/3 个块
+2026-04-17 00:19:22 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603858_20240828_Y4NH.md, prompt长度: 108265
+2026-04-17 00:19:46 - FinancialExtractor - ERROR - extracted_all_data.py:186 - 修复JSON失败: Request timed out.
+2026-04-17 00:20:16 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600594_20251030_LP0O.md 数据提取成功
+2026-04-17 00:20:16 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600594_20251030_LP0O.md 处理完成，耗时: 95.19秒
+2026-04-17 00:20:16 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600329_20230429_9H31.md
+2026-04-17 00:20:16 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [82/1250] 成功 - 600594_20251030_LP0O.md
+2026-04-17 00:20:16 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 13
+2026-04-17 00:20:16 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:20:16 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600329_20230429_9H31.md 的第 1/1 个块
+2026-04-17 00:20:16 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600329_20230429_9H31.md, prompt长度: 19410
+2026-04-17 00:20:17 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600572_20230419_G3NP.md 数据提取成功
+2026-04-17 00:20:17 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600572_20230419_G3NP.md 处理完成，耗时: 102.19秒
+2026-04-17 00:20:17 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600332_20250816_9P7A.md
+2026-04-17 00:20:17 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [83/1250] 成功 - 600572_20230419_G3NP.md
+2026-04-17 00:20:17 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 242
+2026-04-17 00:20:17 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-17 00:20:17 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600332_20250816_9P7A.md 的第 1/3 个块
+2026-04-17 00:20:17 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600332_20250816_9P7A.md, prompt长度: 107834
+2026-04-17 00:20:27 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600329_20250331_WYS4.md 数据提取成功
+2026-04-17 00:20:27 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600329_20250331_WYS4.md 的第 4/4 个块
+2026-04-17 00:20:27 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600329_20250331_WYS4.md, prompt长度: 14321
+2026-04-17 00:20:36 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603858_20240828_Y4NH.md 数据提取成功
+2026-04-17 00:20:36 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603858_20240828_Y4NH.md 的第 3/3 个块
+2026-04-17 00:20:36 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603858_20240828_Y4NH.md, prompt长度: 23130
+2026-04-17 00:20:36 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600976_20250322_WYY3.md 数据提取成功
+2026-04-17 00:20:36 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600976_20250322_WYY3.md 处理完成，耗时: 80.83秒
+2026-04-17 00:20:36 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600993_20231028_PVF9.md
+2026-04-17 00:20:36 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [84/1250] 成功 - 600976_20250322_WYY3.md
+2026-04-17 00:20:36 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 16
+2026-04-17 00:20:36 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:20:36 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600993_20231028_PVF9.md 的第 1/1 个块
+2026-04-17 00:20:36 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600993_20231028_PVF9.md, prompt长度: 29844
+2026-04-17 00:20:48 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600671_20250401_ZFXB.md 数据提取成功
+2026-04-17 00:20:48 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600671_20250401_ZFXB.md 处理完成，耗时: 1575.38秒
+2026-04-17 00:20:48 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600479_20250830_UQ0R.md
+2026-04-17 00:20:48 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [85/1250] 成功 - 600671_20250401_ZFXB.md
+2026-04-17 00:20:48 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 6
+2026-04-17 00:20:48 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 85/1250, 成功: 164, 失败: 3
+2026-04-17 00:20:48 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:20:48 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600479_20250830_UQ0R.md 的第 1/1 个块
+2026-04-17 00:20:48 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600479_20250830_UQ0R.md, prompt长度: 6821
+2026-04-17 00:20:56 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603858_20230428_6PPA.md 数据提取成功
+2026-04-17 00:20:56 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603858_20230428_6PPA.md 处理完成，耗时: 97.65秒
+2026-04-17 00:20:56 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600252_20250830_3BRA.md
+2026-04-17 00:20:56 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [86/1250] 成功 - 603858_20230428_6PPA.md
+2026-04-17 00:20:56 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 7
+2026-04-17 00:20:56 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:20:56 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600252_20250830_3BRA.md 的第 1/1 个块
+2026-04-17 00:20:56 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600252_20250830_3BRA.md, prompt长度: 7103
+2026-04-17 00:21:46 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600332_20250816_9P7A.md 数据提取成功
+2026-04-17 00:21:46 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600332_20250816_9P7A.md 的第 2/3 个块
+2026-04-17 00:21:46 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600332_20250816_9P7A.md, prompt长度: 108395
+2026-04-17 00:22:10 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600993_20231028_PVF9.md 数据提取成功
+2026-04-17 00:22:10 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600993_20231028_PVF9.md 处理完成，耗时: 94.24秒
+2026-04-17 00:22:10 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600566_20241026_W5LD.md
+2026-04-17 00:22:10 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [87/1250] 成功 - 600993_20231028_PVF9.md
+2026-04-17 00:22:10 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 20
+2026-04-17 00:22:10 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:22:10 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600566_20241026_W5LD.md 的第 1/1 个块
+2026-04-17 00:22:10 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600566_20241026_W5LD.md, prompt长度: 18367
+2026-04-17 00:22:21 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603858_20240828_Y4NH.md 数据提取成功
+2026-04-17 00:22:21 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603858_20240828_Y4NH.md 处理完成，耗时: 390.88秒
+2026-04-17 00:22:21 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600222_20240328_KQGO.md
+2026-04-17 00:22:21 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [88/1250] 成功 - 603858_20240828_Y4NH.md
+2026-04-17 00:22:21 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 22
+2026-04-17 00:22:21 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:22:21 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600222_20240328_KQGO.md 的第 1/1 个块
+2026-04-17 00:22:21 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600222_20240328_KQGO.md, prompt长度: 15744
+2026-04-17 00:22:22 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600252_20250830_3BRA.md 数据提取成功
+2026-04-17 00:22:22 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600252_20250830_3BRA.md 处理完成，耗时: 85.82秒
+2026-04-17 00:22:22 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603139_20250429_WE27.md
+2026-04-17 00:22:22 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [89/1250] 成功 - 600252_20250830_3BRA.md
+2026-04-17 00:22:22 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 27
+2026-04-17 00:22:22 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:22:22 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603139_20250429_WE27.md 的第 1/1 个块
+2026-04-17 00:22:22 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603139_20250429_WE27.md, prompt长度: 15594
+2026-04-17 00:22:49 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600129_20240823_1QDN.md 数据提取成功
+2026-04-17 00:22:49 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600129_20240823_1QDN.md 的第 3/3 个块
+2026-04-17 00:22:49 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600129_20240823_1QDN.md, prompt长度: 22104
+2026-04-17 00:23:23 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600566_20241026_W5LD.md 数据提取成功
+2026-04-17 00:23:23 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600566_20241026_W5LD.md 处理完成，耗时: 72.47秒
+2026-04-17 00:23:23 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/603896_20240426_3F5Z.md
+2026-04-17 00:23:23 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [90/1250] 成功 - 600566_20241026_W5LD.md
+2026-04-17 00:23:23 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 90/1250, 成功: 174, 失败: 3
+2026-04-17 00:23:23 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 31
+2026-04-17 00:23:23 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:23:23 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 603896_20240426_3F5Z.md 的第 1/1 个块
+2026-04-17 00:23:23 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 603896_20240426_3F5Z.md, prompt长度: 15964
+2026-04-17 00:23:25 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603139_20250429_WE27.md 数据提取成功
+2026-04-17 00:23:25 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603139_20250429_WE27.md 处理完成，耗时: 62.96秒
+2026-04-17 00:23:25 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600351_20250426_FCHV.md
+2026-04-17 00:23:25 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [91/1250] 成功 - 603139_20250429_WE27.md
+2026-04-17 00:23:25 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 19
+2026-04-17 00:23:25 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:23:25 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600351_20250426_FCHV.md 的第 1/1 个块
+2026-04-17 00:23:25 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600351_20250426_FCHV.md, prompt长度: 14648
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600129_20250329_NDLU.md 数据提取成功
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600129_20250329_NDLU.md 处理完成，耗时: 617.07秒
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600976_20250820_FGUI.md
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [92/1250] 成功 - 600129_20250329_NDLU.md
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 426
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 2 个块
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600976_20250820_FGUI.md 的第 1/2 个块
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600976_20250820_FGUI.md, prompt长度: 108701
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600222_20240328_KQGO.md 数据提取成功
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600222_20240328_KQGO.md 处理完成，耗时: 78.95秒
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600976_20230315_O766.md
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [93/1250] 成功 - 600222_20240328_KQGO.md
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 33
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600976_20230315_O766.md 的第 1/1 个块
+2026-04-17 00:23:40 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600976_20230315_O766.md, prompt长度: 23596
+2026-04-17 00:23:42 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600332_20250816_9P7A.md 数据提取成功
+2026-04-17 00:23:42 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600332_20250816_9P7A.md 的第 3/3 个块
+2026-04-17 00:23:42 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600332_20250816_9P7A.md, prompt长度: 94839
+2026-04-17 00:23:45 - FinancialExtractor - INFO - extracted_all_data.py:180 - ✅ JSON修复成功
+2026-04-17 00:23:45 - FinancialExtractor - INFO - extracted_all_data.py:283 - 文件 600518_20240824_792J.md JSON修复成功
+2026-04-17 00:23:45 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600518_20240824_792J.md 处理完成，耗时: 1788.65秒
+2026-04-17 00:23:45 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600332_20241026_RDSX.md
+2026-04-17 00:23:45 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [94/1250] 成功 - 600518_20240824_792J.md
+2026-04-17 00:23:45 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 21
+2026-04-17 00:23:45 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:23:45 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600332_20241026_RDSX.md 的第 1/1 个块
+2026-04-17 00:23:45 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600332_20241026_RDSX.md, prompt长度: 25465
+2026-04-17 00:23:48 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600479_20250830_UQ0R.md 数据提取成功
+2026-04-17 00:23:48 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600479_20250830_UQ0R.md 处理完成，耗时: 179.18秒
+2026-04-17 00:23:48 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600557_20230408_891D.md
+2026-04-17 00:23:48 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [95/1250] 成功 - 600479_20250830_UQ0R.md
+2026-04-17 00:23:48 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 12
+2026-04-17 00:23:48 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 95/1250, 成功: 184, 失败: 3
+2026-04-17 00:23:48 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:23:48 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600557_20230408_891D.md 的第 1/1 个块
+2026-04-17 00:23:48 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600557_20230408_891D.md, prompt长度: 18004
+2026-04-17 00:23:52 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600329_20230429_9H31.md 数据提取成功
+2026-04-17 00:23:52 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600329_20230429_9H31.md 处理完成，耗时: 215.11秒
+2026-04-17 00:23:52 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600518_20240430_2UK1.md
+2026-04-17 00:23:52 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [96/1250] 成功 - 600329_20230429_9H31.md
+2026-04-17 00:23:52 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 17
+2026-04-17 00:23:52 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:23:52 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600518_20240430_2UK1.md 的第 1/1 个块
+2026-04-17 00:23:52 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600518_20240430_2UK1.md, prompt长度: 27158
+2026-04-17 00:24:54 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 603896_20240426_3F5Z.md 数据提取成功
+2026-04-17 00:24:54 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 603896_20240426_3F5Z.md 处理完成，耗时: 91.82秒
+2026-04-17 00:24:54 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600613_20250426_WJUE.md
+2026-04-17 00:24:54 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [97/1250] 成功 - 603896_20240426_3F5Z.md
+2026-04-17 00:24:54 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 621
+2026-04-17 00:24:54 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 3 个块
+2026-04-17 00:24:54 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600613_20250426_WJUE.md 的第 1/3 个块
+2026-04-17 00:24:54 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600613_20250426_WJUE.md, prompt长度: 104799
+2026-04-17 00:24:59 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600557_20230408_891D.md 数据提取成功
+2026-04-17 00:24:59 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600557_20230408_891D.md 处理完成，耗时: 71.34秒
+2026-04-17 00:24:59 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600594_20240824_A5FJ.md
+2026-04-17 00:24:59 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [98/1250] 成功 - 600557_20230408_891D.md
+2026-04-17 00:24:59 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 543
+2026-04-17 00:24:59 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 2 个块
+2026-04-17 00:24:59 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600594_20240824_A5FJ.md 的第 1/2 个块
+2026-04-17 00:24:59 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600594_20240824_A5FJ.md, prompt长度: 108014
+2026-04-17 00:25:03 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600976_20230315_O766.md 数据提取成功
+2026-04-17 00:25:03 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600976_20230315_O766.md 处理完成，耗时: 82.31秒
+2026-04-17 00:25:03 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600671_20230426_4LUC.md
+2026-04-17 00:25:03 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [99/1250] 成功 - 600976_20230315_O766.md
+2026-04-17 00:25:03 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 12
+2026-04-17 00:25:03 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:25:03 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600671_20230426_4LUC.md 的第 1/1 个块
+2026-04-17 00:25:03 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600671_20230426_4LUC.md, prompt长度: 16781
+2026-04-17 00:25:17 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600351_20250426_FCHV.md 数据提取成功
+2026-04-17 00:25:17 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600351_20250426_FCHV.md 处理完成，耗时: 112.09秒
+2026-04-17 00:25:17 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600080_20241030_XN72.md
+2026-04-17 00:25:17 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [100/1250] 成功 - 600351_20250426_FCHV.md
+2026-04-17 00:25:17 - FinancialExtractor - INFO - extracted_all_data.py:472 - 📊 阶段性统计: 已完成 100/1250, 成功: 194, 失败: 3
+2026-04-17 00:25:17 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 15
+2026-04-17 00:25:17 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:25:17 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600080_20241030_XN72.md 的第 1/1 个块
+2026-04-17 00:25:17 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600080_20241030_XN72.md, prompt长度: 18259
+2026-04-17 00:25:26 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600518_20240430_2UK1.md 数据提取成功
+2026-04-17 00:25:26 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600518_20240430_2UK1.md 处理完成，耗时: 94.57秒
+2026-04-17 00:25:26 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600329_20250331_3SH8.md
+2026-04-17 00:25:26 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [101/1250] 成功 - 600518_20240430_2UK1.md
+2026-04-17 00:25:26 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 19
+2026-04-17 00:25:26 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:25:26 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600329_20250331_3SH8.md 的第 1/1 个块
+2026-04-17 00:25:26 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600329_20250331_3SH8.md, prompt长度: 10970
+2026-04-17 00:25:27 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600976_20250820_FGUI.md 数据提取成功
+2026-04-17 00:25:27 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600976_20250820_FGUI.md 的第 2/2 个块
+2026-04-17 00:25:27 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600976_20250820_FGUI.md, prompt长度: 104150
+2026-04-17 00:25:27 - FinancialExtractor - INFO - extracted_all_data.py:298 - 文件 600332_20241026_RDSX.md 数据提取成功
+2026-04-17 00:25:27 - FinancialExtractor - INFO - extracted_all_data.py:406 - 文件 600332_20241026_RDSX.md 处理完成，耗时: 102.82秒
+2026-04-17 00:25:27 - FinancialExtractor - INFO - extracted_all_data.py:363 - 开始处理文件: /home/ubuntu/TAIDI_B/processed/财务报告/reports-上交所/600557_20240311_JHV1.md
+2026-04-17 00:25:27 - FinancialExtractor - INFO - extracted_all_data.py:465 - ✅ 进度: [102/1250] 成功 - 600332_20241026_RDSX.md
+2026-04-17 00:25:27 - FinancialExtractor - INFO - extracted_all_data.py:342 - 开始分割和合并段落，原始段落数: 31
+2026-04-17 00:25:27 - FinancialExtractor - INFO - extracted_all_data.py:358 - 段落分割完成，生成 1 个块
+2026-04-17 00:25:27 - FinancialExtractor - INFO - extracted_all_data.py:376 - 处理文件 600557_20240311_JHV1.md 的第 1/1 个块
+2026-04-17 00:25:27 - FinancialExtractor - INFO - extracted_all_data.py:254 - 调用大模型处理文件: 600557_20240311_JHV1.md, prompt长度: 20393

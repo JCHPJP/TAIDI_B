@@ -1,0 +1,11 @@
+{
+  "start_time": "2026-04-17T00:47:38.472284",
+  "end_time": "2026-04-17T06:27:50.719160",
+  "total": 1252,
+  "success": 1252,
+  "failed": 0,
+  "total_time_seconds": 20412.246876,
+  "failed_files": [],
+  "success_rate": "100.00%",
+  "avg_time_per_file": 16.30371156230032
+}
