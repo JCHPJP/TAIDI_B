@@ -8,7 +8,7 @@ class Config:
     
     class DeepSeek:
         BASE_URL = "https://llmapi.paratera.com"  
-        API_KEY = "sk-dytOWzjPF9NJrP-zC7_5yg"
+        API_KEY = "sk-UMdV9qSg2-ZQymIRCYq5ew"
         MODEL_NAME = "DeepSeek-V3.2"  # 或你的模型名
         TIMEOUT = 480 
     

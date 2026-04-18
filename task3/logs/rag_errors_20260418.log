@@ -1,0 +1,282 @@
+2026-04-18 18:37:44,480 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:39:19,215 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:40:58,868 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:41:12,806 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:41:51,968 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:42:29,942 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:45:20,824 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:45:53,124 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:46:02,130 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:47:03,668 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:47:24,741 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:47:37,937 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:47:44,300 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:49:55,427 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:50:14,429 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:54:07,573 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 18:56:07,781 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:01:27,867 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:06:47,941 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:10:47,120 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:15:39,173 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:26:29,033 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:27:14,763 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:27:52,406 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:28:39,550 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:28:47,592 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:29:01,319 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:29:53,444 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:30:16,953 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:30:17,861 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:30:31,848 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:31:04,780 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:31:22,983 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:34:11,784 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:34:30,374 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:37:55,176 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:41:20,450 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:41:37,034 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:41:38,884 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:42:10,572 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:42:46,995 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 19:52:28,192 - ERROR - 获取向量最终失败: Error code: 400 - {'error': {'message': "OpenAIException - Error code: 400 - {'error': {'code': '1210', 'message': 'API 调用参数有误，请检查文档。'}}Error happened to model=GLM-Embedding-3", 'type': None, 'param': None, 'code': '400'}}
+2026-04-18 20:14:25,849 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:26,324 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:26,434 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:27,558 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:28,056 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:28,217 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:28,516 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:28,517 - ERROR - 
+❌ 文件处理失败: 600080_20250822_ABVM.md
+2026-04-18 20:14:28,831 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:28,881 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:29,070 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:29,193 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:29,208 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:29,291 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:29,547 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:29,700 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:29,793 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:29,934 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:29,949 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,115 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,122 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,140 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,198 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,202 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,203 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,268 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,341 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,400 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,406 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,497 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,554 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,696 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,724 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,828 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,840 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:30,914 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:31,025 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:31,077 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:31,193 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:31,508 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:31,540 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:31,566 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:31,621 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:31,639 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:31,674 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:31,941 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:31,941 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:32,003 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:32,094 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:32,236 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:32,237 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:32,425 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:32,444 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:32,510 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:32,583 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:32,627 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:32,652 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:32,673 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:32,687 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:32,952 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:33,535 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:33,610 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:33,705 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:33,708 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:33,825 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:33,834 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:33,836 - ERROR - 
+❌ 文件处理失败: 600080_20230819_DNUE.md
+2026-04-18 20:14:33,898 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:33,973 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:34,062 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:34,062 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:34,068 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:34,104 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:34,242 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:34,391 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:34,467 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:34,699 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:34,700 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:34,792 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:34,825 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:34,880 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:35,037 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:35,320 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:35,661 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:35,685 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:35,718 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:35,804 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:35,942 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:36,152 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:36,386 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:36,503 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:36,586 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:36,596 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:36,619 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:36,630 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:36,695 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:36,708 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:36,715 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:36,777 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:36,995 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:37,020 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:37,045 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:37,213 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:37,478 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:37,875 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:38,222 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:38,247 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:38,263 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:38,302 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:38,339 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:38,474 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:38,522 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:38,616 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:38,735 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:38,754 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:38,912 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:38,992 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:39,095 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:39,186 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:39,323 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:39,352 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:39,456 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:39,548 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:39,699 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:39,893 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:40,605 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:40,942 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:41,091 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:41,142 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:41,144 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:41,153 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:41,228 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:41,465 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:41,810 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:41,881 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:42,216 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:42,284 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:42,284 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:42,362 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:42,699 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:43,034 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:43,102 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:43,103 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:43,172 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:43,176 - ERROR - 
+❌ 文件处理失败: 600080_20251030_IVCB.md
+2026-04-18 20:14:43,257 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:43,383 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:43,582 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:43,784 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:43,788 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:43,794 - ERROR - 
+❌ 文件处理失败: 600080_20230428_FQ2V.md
+2026-04-18 20:14:43,924 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:44,193 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:44,196 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:44,240 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:44,994 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:45,519 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:45,534 - ERROR - 
+❌ 文件处理失败: 600080_20231028_F42E.md
+2026-04-18 20:14:45,587 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:45,696 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:45,992 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:46,039 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:46,457 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:46,459 - ERROR - 
+❌ 文件处理失败: 600080_20240427_IBMB.md
+2026-04-18 20:14:46,675 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:46,746 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:46,815 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:47,531 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:47,789 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:47,792 - ERROR - 
+❌ 文件处理失败: 600080_20250425_6GSD.md
+2026-04-18 20:14:47,971 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:48,668 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:48,669 - ERROR - 
+❌ 文件处理失败: 600080_20240817_6AW9.md
+2026-04-18 20:14:49,224 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:49,418 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:49,533 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:49,974 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:49,975 - ERROR - 
+❌ 文件处理失败: 600080_20240427_W39O.md
+2026-04-18 20:14:50,422 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:50,540 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:50,544 - ERROR - 
+❌ 文件处理失败: 600080_20250425_P7ID.md
+2026-04-18 20:14:50,697 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:50,933 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:51,645 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:51,699 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:51,929 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:52,644 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:55,245 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:55,247 - ERROR - 
+❌ 文件处理失败: 600080_20241030_XN72.md
+2026-04-18 20:14:56,695 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:58,201 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:59,735 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:14:59,737 - ERROR - 
+❌ 文件处理失败: 600085_20230328_KEHR.md
+2026-04-18 20:15:02,188 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:15:02,189 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:15:02,203 - ERROR - 
+❌ 文件处理失败: 600080_20230428_PCK7.md
+2026-04-18 20:15:03,796 - ERROR - 获取向量最终失败: Error code: 500 - {'error': {'message': 'Total of weights must be greater than zero', 'type': 'None', 'param': 'None', 'code': '500'}}
+2026-04-18 20:27:02,381 - ERROR - 
+❌ 文件处理失败: 600080_20230819_DNUE.md
+2026-04-18 20:27:04,507 - ERROR - 
+❌ 文件处理失败: 600080_20240427_IBMB.md
+2026-04-18 20:27:05,625 - ERROR - 
+❌ 文件处理失败: 600080_20240427_W39O.md
+2026-04-18 20:27:06,844 - ERROR - 
+❌ 文件处理失败: 600080_20230428_PCK7.md
+2026-04-18 20:27:06,912 - ERROR - 
+❌ 文件处理失败: 600080_20231028_F42E.md
+2026-04-18 20:27:06,923 - ERROR - 
+❌ 文件处理失败: 600080_20230428_FQ2V.md
+2026-04-18 20:27:20,455 - ERROR - 
+❌ 文件处理失败: 600080_20240817_6AW9.md
+2026-04-18 20:27:22,770 - ERROR - 
+❌ 文件处理失败: 600080_20250822_ABVM.md
+2026-04-18 20:27:28,612 - ERROR - 
+❌ 文件处理失败: 600080_20250425_6GSD.md
+2026-04-18 20:27:36,512 - ERROR - 
+❌ 文件处理失败: 600080_20241030_XN72.md
+2026-04-18 20:27:37,269 - ERROR - 
+❌ 文件处理失败: 600080_20250425_P7ID.md
+2026-04-18 20:27:47,841 - ERROR - 
+❌ 文件处理失败: 600080_20251030_IVCB.md
+2026-04-18 20:27:55,176 - ERROR - 
+❌ 文件处理失败: 600085_20230328_KEHR.md
+2026-04-18 20:28:02,377 - ERROR - 
+❌ 文件处理失败: 600085_20230429_VQ9H.md
+2026-04-18 20:28:04,666 - ERROR - 
+❌ 文件处理失败: 600085_20230830_7BHH.md
